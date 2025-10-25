@@ -81,9 +81,6 @@
             <p class="parrafo_descripcion_textos">
               Ideal para viviendas, oficinas y locales comerciales que buscan una automatización práctica y confiable, con un motor silencioso y eficiente
             </p>
-            <p class="parrafo_descripcion_textos">
-              <strong>Disponible en distintos modelos según la necesidad:</strong>
-            </p>
           </div>
         </div>
           
@@ -103,6 +100,12 @@
 				</div>
 
 				<div class="row">
+
+				<div class="col-md-12 text-center">
+					<p class="parrafo_descripcion_textos mb-3">
+						<strong>Disponible en distintos modelos según la necesidad:</strong>
+					</p>
+				</div>
 
           <div class="col-md-6">
               <p class="parrafo_descripcion_textos">
@@ -173,8 +176,8 @@
 
 		<!-- Newsletter -->
 		<?php
-// include_once('includes/newsletter.inc');
-?>
+      // include_once('includes/newsletter.inc');
+    ?>
 
 		<!-- Faja equipo frase -->
 		<section class="container-fluid faja_destacado_equipo">
