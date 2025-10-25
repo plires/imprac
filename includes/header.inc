@@ -85,10 +85,10 @@
                       >Electrónica</a
                     >
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="accesorios.php"
-                      >Accesorios</a
+                    <a class="dropdown-item" href="accesorios-repuestos.php"
+                      >Accesorios y Repuestos</a
                     >
-                    <a class="dropdown-item" href="repuestos.php">Repuestos</a>
+                    <!-- <a class="dropdown-item" href="repuestos.php">Repuestos</a> -->
                   </div>
                 </li>
                 <li class="separador">|</li>

@@ -148,7 +148,7 @@
             en la automatización de portones.
           </p>
           <a
-            href="accesorios.php"
+            href="accesorios-repestos.php"
             class="btn_slide_home"
             data-position="270,200"
             data-in="bottom"
@@ -346,13 +346,13 @@
       </div>
 
       <div class="col-lg-4">
-        <a href="accesorios.php"
+        <a href="accesorios-repestos.php"
           ><img
             class="icono_familia_home margin_bottom_15"
             src="img/icono_accesorios.png"
             alt="icono accesorios"
         /></a>
-        <h3><a class="h3_familia_home" href="accesorios.php">ACCESORIOS</a></h3>
+        <h3><a class="h3_familia_home" href="accesorios-repestos.php">ACCESORIOS</a></h3>
         <p class="parrafo_familia_home">
           Amplia gama de componentes necesarios para el funcionamiento de los
           distintos sistemas.

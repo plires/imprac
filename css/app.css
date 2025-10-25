@@ -607,7 +607,7 @@ nav ul li a:hover {
   display: inline-block;
   width: 100%;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1.75em;
   background-color: #3689bd;
   font-weight: 600;
   padding: 5px;
@@ -1611,7 +1611,7 @@ footer span {
     font-size: 1.15em;
   }
   .faja_electronica {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   #example {
     font-size: 0.75em;

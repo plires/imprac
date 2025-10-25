@@ -57,10 +57,10 @@
 
 				<div class="col-md-6 text-right align_vertical_horizontal">
 					<div>
-						<h2 class="h2_electronica margin_top_30 margin_bottom_60 ">ACCESORIOS</h2>
+						<h2 class="h2_electronica margin_top_30 margin_bottom_60 ">ACCESORIOS Y REPUESTOS</h2>
 						<p>
 							<span class="frase_slide_mayor">
-								Cerraduras, Semáforos, Cremalleras.
+								Cerraduras, Semáforos, Cremalleras, Fotecelulas.
 							</span>
 						</p>
 						<p>
@@ -104,11 +104,35 @@
 				<div class="col-md-4 text-center">
 					<div class="contenedor">
 						<a href="cerraduras.php">
-							<img class="w-100 imagen" src="img/accesorios/cerraduras.jpg" alt="receptores">
+							<img class="w-100 imagen" src="img/accesorios/cerraduras.jpg" alt="cerradura-220v">
 						</a>
 					</div>
-					<a class="faja_electronica" href="cerraduras.php">CERRADURAS</a>
+					<a class="faja_electronica" href="cerraduras.php">CERRADURA 220V</a>
 					<a href="cerraduras.php" class="btn_contacto btn_electronica margin_top_10">
+						VER MÁS
+					</a>
+				</div>
+
+				<div class="col-md-4 text-center">
+					<div class="contenedor">
+						<a href="cerraduras-12v.php">
+							<img class="w-100 imagen" src="img/accesorios/cerraduras-12v.jpg" alt="cerradura 12v">
+						</a>
+					</div>
+					<a class="faja_electronica" href="cerraduras.php">CERRADURA 12V</a>
+					<a href="cerraduras-12v.php" class="btn_contacto btn_electronica margin_top_10">
+						VER MÁS
+					</a>
+				</div>
+
+				<div class="col-md-4 text-center">
+					<div class="contenedor">
+						<a href="fotocelula-oval.php">
+							<img class="w-100 imagen" src="img/accesorios/fotocelula-oval.jpg" alt="fotocelula oval">
+						</a>
+					</div>
+					<a class="faja_electronica" href="cerraduras.php">FOTOCELULA</a>
+					<a href="fotocelula-oval.php" class="btn_contacto btn_electronica margin_top_10">
 						VER MÁS
 					</a>
 				</div>
@@ -185,9 +209,6 @@
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-	<!-- Comun a todos los productos -->
-	<script type="text/javascript" src="js/productos.js"></script>
 
 </body>
 
