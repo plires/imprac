@@ -1,0 +1,921 @@
+/*3D*/
+.flipster__item img {width: 50%; margin: auto;}
+.flipster__item__content{margin: auto; text-align: center;}
+
+/*.COMUNES */
+
+.block {display: block;}
+.align_vertical_horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align_vertical_top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.align_derecha {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.align_izquierda {
+  display: flex;
+  justify-content: start-end;
+}
+
+.align_vertical_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.align_solo_vertical_bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.align_vertical_top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.transition{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+.bold {font-weight: 600;}
+.margin_top_60{margin-top: 60px;}
+.margin_top_30{margin-top: 30px;}
+.margin_top_10{margin-top: 10px;}
+.margin_bottom_10{margin-bottom: 10px;}
+.margin_bottom_15{margin-bottom: 15px;}
+.margin_bottom_30{margin-bottom: 30px;}
+.margin_bottom_60{margin-bottom: 60px;}
+
+.padding_top_60{padding-top: 60px;}
+.padding_top_30{padding-top: 30px;}
+.padding_bottom_20{padding-bottom: 30px;}
+
+.faja_destacado{ background-color: #016eaf; color: #ffffff; padding: 20px 0; }
+.faja_destacado_sec{ background-color: #003759; color: #ffffff; padding: 20px 0; }
+.faja_destacado_equipo{ background-color: #d7d7d7; color: #000000; padding: 20px 0; }
+
+.color_principal{color: #106299;}
+.color_secundario{color: #003759;}
+
+.frase{font-size: 3.25em;}
+
+.btn_sm, .p_md{ font-size: 1.25em;}
+
+.separador_hr{ 
+  border-bottom: solid 3px #016eaf; 
+  padding: 0!important; 
+  border-radius: 50%; 
+  box-shadow: 0px 2px 6px #888888; 
+}
+
+.w-95{width: 95%; margin: auto;}
+.w-90{width: 90%; margin: auto;}
+.w-85{width: 85%; margin: auto;}
+.w-80{width: 80%; margin: auto;}
+.w-75{width: 75%; margin: auto;}
+.w-70{width: 70%; margin: auto;}
+.w-60{width: 60%;}
+.text_blanco{color: #ffffff;}
+
+/* BODY */
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+}
+
+a:hover{text-decoration: none;}
+
+/* HEADER */
+
+
+.navbar {display: inline-flex; padding: 0;}
+.logo_small{display: none;}
+.slider_medium_small{display: none;}
+
+header{padding: 15px;}
+
+.facebook{display: inline-block; margin-bottom: 15px;}
+
+.instagram, .facebook {
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+.instagram:hover, .facebook:hover {
+opacity: 0.6;
+}
+
+nav ul{ list-style: none; }
+nav ul li.separador, .separador {padding: 10px 5px;}
+nav ul li:last-child{padding-right: 0;}
+nav ul li a{text-decoration: none; font-size: 1.188em; font-weight: 600;}
+
+span.tel{margin-right: 10px; padding-top: 10px; font-size: 1.25em; font-weight: 600; }
+
+span.tel, nav ul li a{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+	transition: all ease-in-out .3s;
+	color: #003759;
+}
+
+nav ul li a:hover{color: red; text-decoration: none;}
+
+
+/**/
+
+/* WHATSAPP */
+#seguidor,
+#seguidor-tel { z-index: 10000!important; }
+
+#seguidor{
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  z-index: 20;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: auto;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  padding: 45px 10px 10px;
+}
+
+.whatsapp { color: #ffffff; }
+
+.click-to-call-mobile {
+  width: 60px;
+  height: 60px;
+  background-color: #03e97e;
+  text-shadow: 1px 1px 2px grey;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  margin-left: -30px;
+  border-radius: 50%;
+  font-size: 2.3em;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+  box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cerrar-seguidor{position: absolute; top: 0; right: 5px; border: none; background-color: #ffffff; margin-top: 5px;}
+#cerrar-seguidor:hover{opacity: 0.6;}
+#modal{top: 150px;}
+#envia{clear: both;  margin-top: 15px; }
+#envia:hover{background-color: #8C8989; color: #ffffff;}
+
+#seguidor-tel{ display: none; }
+#seguidor-tel a{ color: #3c3c3c;}
+#seguidor-tel a:hover{ color: #ffffff;}
+#seguidor-tel h5{ font-size: 14px; margin: 0px!important;}
+#cerrar-seguidor-tel{ display: inline; text-align: right; background-color: #03e97e!important; border: none; }
+#cerrar-seguidor-tel:hover{ opacity: 0.6;}
+
+.btn-wap{
+  position: absolute; right: 42px;
+  bottom: -18px;
+  border: none!important;
+  background-color: #03e97e;
+  border-radius: 5px;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px grey;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+  box-shadow: 1px 1px 3px 1px rgba(119,119,119,.48);
+}
+.btn-wap:hover{ background-color: #012738; color: #ffffff; }
+
+
+#cerrar-seguidor{ position: absolute; top: 0; right: 5px;}
+#cerrar-seguidor:hover{opacity: 0.6;}
+/* WHATSAPP end */
+
+/* HOME */
+.fondo-slide {
+  background-image: url('../img/fondo.jpg');
+  height: 680px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+}
+
+.btn_slide_home{
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #003759;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 5px 10px;  
+}
+
+.btn_slide_home:hover{ background-color: #074672; color: #ffffff; }
+
+.h3_familia_home{ color: #003759; font-weight: 600;}
+
+.fs_obj {position: absolute; top:-30%;}
+
+.icono_familia_home, .h3_familia_home{
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+}
+.icono_familia_home:hover{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+/* NEWSLETTER */
+.btn_newsletter_home{
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #003759;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 5px 10px;  
+}
+
+.error{ text-align: left!important; color: #f58466;}
+.error ul {margin: 0; padding: 0; list-style: none;}
+
+.form-inline .form-control{width: 100%;}
+
+.form-inline{display: inline;}
+
+.h3_familia_home:hover{ color: #106299; }
+
+.parrafo_familia_home{font-size: 1.31em; color: #106299;}
+
+.fondo_onda_gris {
+  margin-top: 350px;
+  background-image: url('../img/onda-gris.gif');
+  background-position: 50% -40%;
+  background-repeat: no-repeat;
+}
+
+.numero {font-size: 5em; color: #106299; font-weight: 600;}
+
+
+
+.envoltorio {
+  padding: 0 40px;
+  text-align: center!important;
+}
+
+.imagen_motor_home{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+}
+
+.imagen_motor_home:hover{ filter: contrast(180%); }
+
+.taller_sello{
+  background: url(../img/taller-2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 570px;
+}
+
+.frase_argentina_home{color: #ffffff; font-size: 2.125em; margin-top: 15px;}
+
+
+/* EMPRESA */
+.fondo_empresa {
+  background-image: url('../img/empresa/empresa-new.jpg');
+  height: 695px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+}
+
+/* ELECTRONICA */
+
+.fondo_electronica {
+  background-image: url('../img/electronica/header-electronica.jpg');
+  height: 500px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+}
+
+.h3_electronica{ font-size: 3em; }
+.h4_electronica{ margin: 0; display: inline-block; margin-right: 60px; font-size: 2em; font-weight: 600;}
+
+.frase_slide_mayor{ color: #ffffff; font-size: 1.75em; font-weight: 600; }
+.frase_slide_menor{ color: #ffffff; font-size: 1.3em; }
+
+.contenedor {
+  overflow:hidden;
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 5px;
+  border: solid 1px #f1f2f2;
+}
+
+.contenedor:hover .imagen {
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.contenedor .imagen {
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.contenedor:hover .imagen_motores {
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  -webkit-transform:scale(1.5);
+  transform:scale(1.5);
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: contrast(150%);
+}
+
+.contenedor .imagen_motores {
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  -webkit-transform:scale(1);
+  transform:scale(1);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: contrast(100%);
+}
+
+.btn_electronica{
+  font-size: 1em;
+  float: none!important;
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  border: none!important;
+}
+
+.btn_electronica:hover{
+  background-color: #e6e7e8!important;
+  box-shadow: 0px 0px 2px #888888;
+}
+
+.btn_cta_electronica{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  display: inline-block;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  font-size: 1.25em;
+  background-color: #003759;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn_cta_electronica:hover{
+  color: #003759;
+  background-color: #f1f2f2;
+}
+
+
+.faja_electronica{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  display: inline-block;
+  width: 100%;
+  color: #ffffff; 
+  font-size: 2em; 
+  background-color: #3689bd; 
+  font-weight: 600; 
+  padding: 5px;
+}
+
+.faja_electronica:hover{ color: #e6e7e8; background-color: #000000; }
+
+
+/* CENTRALES */
+
+.fondo_integrado {
+  background-image: url('../img/electronica/header-circuitos.jpg');
+  height: 514px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+}
+
+.titulo_centrales { display: block; margin: 20px auto; }
+
+
+/* CTECO */
+
+.fondo_gris {
+  background-image: url('../img/electronica/header-medialuna-gris.gif');
+  height: 355px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+}
+
+.h1_centrales{ color: #016eaf; font-size: 3em; font-weight: 600; margin: 60px 0 30px 0; }
+.h1_descargas{ margin: 0; display: inline-block; font-size: 2.5em; margin-left: 15px; font-weight: 600; color: #003759; }
+
+.parrafo_descripcion_textos{ font-size: 1.188em; color: #106299; }
+
+.contenedor_plano{ position: relative; }
+
+#example{
+  position: absolute;
+  border-radius: 100px;
+  top: 40%;
+  right: 13%;
+}
+
+
+/* RECEPTORES */
+.titulo_cric4{
+  display: inline-block; 
+  margin-left: 15px; 
+  font-size: 1.875em;
+  font-weight: 600; 
+  color: #106299;
+}
+
+
+/* LEVADIZOS */
+
+.fondo_levadizo {
+  background-image: url('../img/automatizacion/levadizos/header-levadizos.jpg');
+  height: 670px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 130px;
+}
+
+.cont_levadizos{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  background-color: #f1f2f2;
+}
+
+.cont_levadizos:hover{ 
+  background-color: #f1f2f2;
+  box-shadow: 0px 0px 2px #888888;
+}
+
+.h2_motores {margin-top: 350px!important; text-shadow: 2px 2px #000000;}
+
+
+/* CORREDIZOS */
+
+.corredizo {
+  background-image: url('../img/automatizacion/corredizos/header-corredizos.jpg');
+}
+.h2_corredizo {
+  margin-top: 330px!important;
+  text-shadow: none;
+}
+
+.cont_corredizos {
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  padding: 15px 0;
+}
+
+/* AUTOMATIZACION */
+
+.fondo_automatizacion {
+  background-image: url('../img/automatizacion/header.jpg');
+  padding-top: 60px;
+  height: 640px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+}
+
+.p_automatizacion, .h2_automatizacion, .h3_automatizacion { text-align: right; }
+
+.corredizos_automatizacion{ 
+  background-image: url('../img/automatizacion/corredizos-automatizacion.jpg');
+  background-repeat: no-repeat;
+  text-align: right;
+  height: 665px;
+  background-position: 50% 50%; 
+}
+
+.corredizo_img{
+  margin-top: 115px;
+  margin-right: 80px;
+  opacity: 0.8;
+}
+
+.h2_automatizacion_corredizo{
+  text-align: center;
+  background-color: rgba(1, 110, 175, 0.6);
+  color: #ffffff;
+  margin-right: 80px;
+  padding: 8px;
+}
+
+.vermas_corredizo{ margin-right: 140px!important; }
+
+.levadizos_automatizacion{ 
+  background-image: url('../img/automatizacion/levadizos-automatizacion.jpg');
+}
+
+.levadizos_automatizacion{
+  text-align: left;
+}
+
+.levadizo_img{
+  margin-top: 115px;
+  margin-left: 72px;
+  opacity: 0.8;
+}
+
+.h2_automatizacion_levadizo{
+  text-align: center;
+  background-color: rgba(1, 110, 175, 0.6);
+  color: #ffffff;
+  margin-left: 90px;
+  padding: 8px;
+}
+
+.vermas_levadizo{ margin-left: 140px!important; }
+
+/* CORREDIZOS */
+.fondo_gris_corredizos {
+  background-image: url('../img/automatizacion/corredizos/gris-productos.gif');
+  height: 275px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+}
+
+.tablas_tecnicas_titulo{
+  color: #ffffff;
+  background-color: #016eaf;
+  padding: 10px;
+}
+
+
+/* ACCESORIOS */
+.fondo_accesorios {
+  background-image: url('../img/accesorios/accerios-fondo-header.jpg');
+  height: 640px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+}
+
+.h1_accesorios{ margin-top: 120px; }
+
+
+/* REPUESTOS */
+
+.fondo_repuestos {
+  margin-bottom: 40px;
+}
+
+.repuestos_img{
+  border-top: solid 4px #016eaf;
+}
+
+.h4_repuestos{ font-size: 2em; color: #106299; }
+
+
+
+/* DESCARGAS */
+.fondo_descargas {
+  background-image: url('../img/descargas/descargas-header.jpg');
+  height: 517px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+  margin-bottom: 90px;
+}
+
+.parrafo_descargas{ color: #ffffff; font-size: 1.25em; }
+
+.btn_descargas{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  border-radius: 5px;
+  background-color: #003759;
+  border: solid 1px #ffffff;
+  font-size: 1.15em;
+  padding: 5px;
+  margin: auto;
+  max-width: 70%;
+}
+
+.descarga_titulo{ font-size: 1.5em; color: #106299; display: inline-block; }
+
+a.btn_descargas, #descarga{color: #ffffff!important;}
+
+.btn_descargas:hover{
+  background-color: #106299!important;
+  color: #f1f2f2!important;  
+}
+.descarga_titulo:hover, .descargas img.transition:hover{ opacity: 0.7; }
+
+/* CONTACTO */
+.fondo_contacto {
+  background-image: url('../img/contacto/header-contacto.jpg');
+  background-color: #d7d7d7;
+  height: 400px; 
+  background-position: 50% 50%; 
+  background-repeat: no-repeat;
+}
+
+.btn_contacto{
+  -webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  margin: 15px 0;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #003759;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  font-size: 1.15em;
+  font-weight: 600;
+  padding: 5px 10px;
+  float: right;
+}
+
+.btn_contacto:hover{
+  background-color: #ffffff;
+  color: #003759;  
+}
+
+.text-muted{ color: red!important; padding-left: 15px; }
+
+.fondo_gris_contacto{ background-color: #d7d7d7; }
+
+.h2_contacto, .h2_electronica{ color: #ffffff; font-size: 3em; font-weight: 600; margin: 60px 0 30px 0; }
+.frase_contacto{ color: #ffffff; font-size: 1.438em; }
+
+.contacto span { display: inline-block; margin-bottom: 40px; }
+.contacto a, .contacto i { color: #003759; font-size: 1.25em;}
+.contacto i { font-style: normal; }
+.contacto i { display: inline-block; padding-right: 10px; }
+
+.datos{display: inline-block;}
+
+/* DISTRIBUIDORES */
+.distribuidores .h2_contacto { margin-bottom: 15px; }
+.distribuidores h3 { margin: 0; margin-top: 5px; border-top: solid black 1px; color: black; font-size: 1rem; text-align: center; text-transform: uppercase; }
+.distribuidores .card_distribuidor:first-child h3 { margin-top: -5px; }
+.distribuidores .frase_distribuidores { color: white; font-size: 1.5rem; }
+.distribuidores .card_distribuidor { min-height: 290px; }
+.distribuidores .card_distribuidor:first-child { margin-top: 60px; }
+.distribuidores .card_distribuidor:last-child { margin-bottom: 60px; }
+.distribuidores .card_distribuidor .img { display: flex; flex-direction: column; justify-content: center; align-items: center; background: white }
+.distribuidores .card_distribuidor .datos { display: flex; flex-direction: column; justify-content: space-between; align-items: center; background: #016eaf; }
+.distribuidores .card_distribuidor .datos .telefonos,
+.distribuidores .card_distribuidor .datos .direccion  { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; }
+.distribuidores .card_distribuidor .datos hr { display: block; background: white; width: 80%; margin: 0 auto; }
+.distribuidores .card_distribuidor .datos a { color: white; font-size: 1.375rem; font-weight: 600; }
+.distribuidores .card_distribuidor .datos .btn-primary { background: white; color: #016eaf; font-size: 0.75rem; margin: 15px 0; border: 0; }
+.distribuidores .card_distribuidor .datos a:hover { opacity: 0.6; }
+.distribuidores .card_distribuidor .datos .direccion a  { font-size: 1rem; }
+/* DISTRIBUIDORES end */
+
+
+/* FOOTER */
+footer{ background-color: #000000; padding: 40px;}
+
+footer, footer a{ color: #ffffff; }
+
+footer a, .datos, .datos i {
+  -webkit-transition: all ease-in-out .5s; /* Safari */
+  transition: all ease-in-out .5s;
+}
+
+footer a:hover, .datos:hover, .datos i:hover{ color: #007bff; }
+
+footer i:before { display: inline-block; padding-right: 10px; margin-top: 10px;}
+footer i, footer span {font-size: 1.125em; font-style: normal;}
+
+.logo_footer{ width: 60%; }
+
+.derechos_reservados_footer { font-size: 1.188em; color: #c8c8c8; }
+.libre_footer { display: inline-block; float: right; padding-right: 20px; font-size: 0.75em; color: #c8c8c8; }
+
+/* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
+@media (max-width: 575.98px) { 
+  .familia_home {padding-top: 130px;}
+  .slider-wrapper{display: none;}
+  .slider_medium_small{display: block;}
+  .carousel-caption{ position: relative; left: 0; bottom: 0;}
+  .mano{width: 100%}
+  .conceptos{text-align: center;}
+  .frase{font-size: 1.5em;}
+  .sello_argentina{width: 80%;}
+  .frase_argentina_home{font-size: 1.65em;}
+  .h2_electronica{margin: 10px 0; font-size: 2.25em;}
+  .frase_slide_mayor{ font-size: 1.25em; }
+  .frase_slide_menor{ font-size: 1.15em; }
+  .slide_imagen { top: -50px; }
+  .faja_electronica{ font-size: 1.25em; }
+  .h1_centrales { font-size: 2em; }
+  .h2_centrales { margin: 50px 0; }
+  .h2_transmisores { font-size: 1.7em; }
+  .h4_electronica{ width:100%; margin: 0; margin-bottom: 15px; font-size: 1.5em; }
+  .btn_cta_electronica{ font-size: 1em; }
+  .contenedor_plano{ display: none; }
+  .titulo_central{width: 100%;}
+  .titulo_cric4{ font-size: 1.25em; }
+  .titulo_corredizos{width: 80%;}
+  .img_header{ text-align: center!important; margin-top: 30px; }
+  .p_automatizacion, .h2_automatizacion, .h3_automatizacion { text-align: center; }
+  .h2_automatizacion{font-size: 1.5em!important;}
+  .h3_automatizacion { font-size: 1em; }
+  .fondo-automatizacion{padding-top: 30px;}
+  .descripcion_motores { font-size: 1em; text-align: center; }
+  .h1_accesorios{ margin: 0; margin-top: 10px; font-size: 2em!important; }
+  .fondo_gris_accesorios{ margin: 30px 0;  height: 60px; }
+  .cerradura_img_titulo{ max-width: 80%; }
+  .h2_repuestos{margin-top: 80px;}
+  .h3_repuestos{ font-size: 2em; }
+  .h4_repuestos{ font-size: 1.5em; }
+  .h3_accesorios{ font-size: 1.75em; }
+  nav ul li.separador, .separador {display: none;}
+  a.instagram, .facebook, a span.tel, .logo {display: none;}
+  .facebook{margin: 0;}
+  .fondo_onda_gris{ margin-top: 1300px; background-position: 50% 100%; }
+  .h3_familia_home {font-size: 0.75em;}
+  .fondo_automatizacion{background-image: url('../img/automatizacion/header-responsive.jpg'); padding-top: 60px; height: 700px; background-position: 50% 0%; }
+  .corredizos_automatizacion { text-align: center;}
+  .corredizo_img, .vermas_corredizo, { margin-right: 0!important; text-align: center; }
+  .levadizo_img, .vermas_levadizo { margin-left: 0!important; text-align: center;}
+  .h2_automatizacion_corredizo, .h2_automatizacion_levadizo, .vermas_corredizo, .vermas_levadizo, .corredizo_img {margin-left: auto!important; margin-right: auto!important;}
+  footer a, .datos, .datos i, .derechos_reservados_footer { font-size: 0.75em; }
+  .logo_footer { width: 50%; }
+  .btn_descargas{ max-width: 50%; }
+
+  /* DISTRIBUIDORES */
+  .distribuidores .frase_distribuidores { font-size: 1.125rem; }
+  .distribuidores h3 { font-size: 0.85rem; }
+  .distribuidores .card_distribuidor { min-height: auto; height: auto; margin-bottom: 60px; }
+  .distribuidores .card_distribuidor .img { padding: 15px; }
+  .distribuidores .card_distribuidor .datos { min-height: 250px; height: 250px; padding: 10px; }
+  .distribuidores .card_distribuidor .datos:nth-child(1) { order: 2 }
+  .distribuidores .card_distribuidor .datos a { font-size: 1rem; }
+  .distribuidores .card_distribuidor .datos .btn-primary { margin-bottom: 0; }
+  /* DISTRIBUIDORES end */
+
+  /* WHATSAPP */
+  #seguidor{ display: none;}
+
+  #seguidor-tel{
+    display: inline-block; 
+    position: fixed;
+    background-color: #03e97e;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 20px; 
+    z-index: 30;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  }
+  /* WHATSAPP end */
+
+}
+
+/* Dispositivos pequeños (teléfonos apaisados, 576px y más) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .familia_home {padding-top: 90px;}
+  .slider-wrapper{display: none;}
+  .slider_medium_small{display: block;}
+  .carousel-caption{ position: relative; left: 0; bottom: 0; }
+  .mano{width: 100%}
+  .conceptos{text-align: center;}
+  .frase{font-size: 2em;}
+  .sello_argentina{width: 70%;}
+  .frase_argentina_home{font-size: 1.65em;}
+  .frase_slide_mayor{ font-size: 1.5em; }
+  .frase_slide_menor{ font-size: 1.15em; }
+  .slide_imagen { top: -70px; }
+  .h2_electronica{ margin: 10px 0; font-size: 2.5em; }
+  .h2_centrales { margin: 50px 0; }
+  .h4_electronica{ margin: 0; margin-bottom: 15px; font-size: 1.8em;}
+  .contenedor_plano{ display: none; }
+  .titulo_corredizos{width: 80%;}
+  .img_header{ text-align: center!important; margin-top: 30px; }
+  .p_automatizacion, .h2_automatizacion, .h3_automatizacion { text-align: center; }
+  .h3_automatizacion { font-size: 1.3em; }
+  .descripcion_motores { text-align: center; }
+  .h1_accesorios{ margin: 0; margin-top: 10px; font-size: 2.5em!important; }
+  .fondo_gris_accesorios{ margin: 50px 0;  height: 60px; }
+  .h2_repuestos{margin-top: 50px;}
+  nav ul li.separador, .separador {display: none;}
+  a.instagram, .facebook, a span.tel, .logo {display: none;}
+  .facebook{margin: 0;}
+  .logo_small{display: inline-block; text-align: left; float: left;}
+  a.logo_small img{width: 70%;}
+  .fondo_onda_gris{ margin-top: 1200px; background-position: 50% 100%; }
+  .fondo_automatizacion{background-image: url('../img/automatizacion/header-responsive.jpg'); padding-top: 60px; height: 860px; background-position: 50% 0%; }
+  .corredizos_automatizacion, .levadizos_automatizacion { text-align: center;}
+  .corredizo_img, .vermas_corredizo { margin-right: 0!important; text-align: center;}
+  .levadizo_img, .vermas_levadizo { margin-left: 0!important; text-align: center;}
+  .h2_automatizacion_corredizo, .h2_automatizacion_levadizo, .vermas_corredizo, .vermas_levadizo, .corredizo_img {margin-left: auto!important; margin-right: auto!important;}
+  .btn_descargas{ max-width: 50%; }
+
+  /* DISTRIBUIDORES */
+  .distribuidores .frase_distribuidores { font-size: 1.25rem; }
+  .distribuidores .card_distribuidor { min-height: auto; height: auto; margin-bottom: 60px; }
+  .distribuidores .card_distribuidor .img { padding: 15px; }
+  .distribuidores .card_distribuidor .datos { padding: 20px; min-height: 300px; }
+  .distribuidores .card_distribuidor .datos:nth-child(1) { order: 2 }
+  .distribuidores .card_distribuidor .datos a { font-size: 1.25rem; }
+  .distribuidores .card_distribuidor .datos .btn-primary { margin-bottom: 0; }
+  /* DISTRIBUIDORES end */
+
+  /* WHATSAPP */
+  #seguidor{display: none;}
+
+  #seguidor-tel{
+   display: inline-block; 
+   position: fixed;
+   background-color: #03e97e;
+   border-radius: 5px;
+   bottom: 20px;
+   right: 20px; 
+   z-index: 30;
+   padding: 15px;
+   -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+   -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+   box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+  }
+  /* WHATSAPP end */
+
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .fondo_onda_gris{ margin-top: 1200px; background-position: 50% -20%; }
+  .fondo_automatizacion{background-image: url('../img/automatizacion/header-responsive.jpg'); padding-top: 60px; height: 860px; background-position: 50% 0%; }
+}
+
+/* Dispositivos medianos (tabletas, 768px y más) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .familia_home {padding-top: 60px;}
+  .slider-wrapper{display: none;}
+  .slider_medium_small{display: block;}
+  .carousel-caption{ position: relative; left: 0; bottom: 0; }
+  .frase{font-size: 2em;}
+  .slide_imagen { top: 30px; }
+  .frase_slide_mayor{ font-size: 1.5em; }
+  .frase_slide_menor{ font-size: 1.15em; }
+  .faja_electronica{ font-size: 1.5em; }
+  #example{ font-size: 0.75em; }
+  .contenedor_plano{ display: none; }
+  .titulo_cric4{ font-size: 1.25em; }
+  .titulo_corredizos{width: 80%;}
+  .img_header{ text-align: center!important; margin-top: 30px; }
+  .h2_automatizacion{font-size: 2em!important;}
+  .h3_automatizacion { font-size: 1.4em; }
+  .descripcion_motores { font-size: 1em; }
+  .h2_repuestos{margin-top: 100px;}
+  .h4_repuestos{ font-size: 1.5em; }
+  .navegacion { text-align: center!important; }
+  nav ul li.separador, .separador {display: none;}
+  a.instagram, .facebook, a span.tel, .logo {display: none;}
+  .facebook{margin: 0;}
+  .logo_small{display: inline-block; text-align: left; float: left;}
+  a.logo_small img{width: 70%;}
+  .fondo_onda_gris{ margin-top: 1185px; }
+}
+
+/* Dispositivos grandes (escritorios, 992px y más) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Dispositivos extragrandes (escritorios grandes, 1200px y más) */
+@media (min-width: 1200px) { 
+}
+
+
