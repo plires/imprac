@@ -1106,6 +1106,32 @@ footer span {
 }
 /* Cambios en Home end */
 
+.bg-pulse {
+  animation: bgPulse 1s infinite alternate;
+}
+
+@keyframes bgPulse {
+  0% {
+    color: black;
+  } /* celeste */
+  100% {
+    color: grey;
+  } /* naranja */
+}
+
+.bg-pulseDesktop {
+  animation: bgPulseDesktop 1s infinite alternate;
+}
+
+@keyframes bgPulseDesktop {
+  0% {
+    background-color: #0ea5e9;
+  } /* celeste */
+  100% {
+    background-color: #03e97e;
+  } /* naranja */
+}
+
 /* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
 @media (max-width: 575.98px) {
   .familia_home {
