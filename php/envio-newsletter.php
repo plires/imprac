@@ -1,20 +1,22 @@
 <?php
 
-
 //Generamos un numero de control usando un aleatorio sobre la hora
 $name = $_POST['name'];
 $email = $_POST['email'];
-$date = date("d-M-y H:i");
+$date = date('d-M-y H:i');
 $origen = $_POST['origen'];
 $boundary = md5(time() . rand(1, 100));
 
 //Confeccionamos el HTML con los datos del usuario
-$content = '
+$content =
+    '
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Imprac - ' . $origen . '</title>
+<title>Imprac - ' .
+    $origen .
+    '</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,7 +44,9 @@ $content = '
 </td>
                                         </tr>
                                         <tr>
-<td bgcolor="#106299" align="center" style="font-size: 20px; line-height: 25px; font-family: Helvetica, Arial, sans-serif;  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0; background-color:#106299; color:#ffffff; vertical-align: top;">Imprac - ' . $origen . '</td>
+<td bgcolor="#106299" align="center" style="font-size: 20px; line-height: 25px; font-family: Helvetica, Arial, sans-serif;  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0; background-color:#106299; color:#ffffff; vertical-align: top;">Imprac - ' .
+    $origen .
+    '</td>
                                         </tr>
                                         <tr>
 <td bgcolor="#106299" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0; background-color:#106299; color:#ffffff;">&nbsp;</td>
@@ -56,7 +60,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $name . '
+        ' .
+    $name .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -68,7 +74,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $email . '
+        ' .
+    $email .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -80,7 +88,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $date . '
+        ' .
+    $date .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -92,7 +102,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $boundary . '
+        ' .
+    $boundary .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -123,13 +135,19 @@ $content = '
 </html>
 ';
 
-mail('info@imprac.com.ar', 'Nueva suscripcion Newsletter', $content, "MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >");
+mail(
+    'info@imprac.com.ar',
+    'Nueva suscripcion Newsletter',
+    $content,
+    "MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >",
+);
 
 // Registro la consulta en la bdd
-include("conexion-newsletter.php");
+include 'conexion-newsletter.php';
 
 //preparamos el mensaje de confirmacion que le enviaremos al remitente.
-$mensaje = '
+$mensaje =
+    '
 <!DOCTYPE html>
 <html>
 <head>
@@ -164,7 +182,9 @@ $mensaje = '
                                         </tr>
                                         <tr>
 <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0 0;" class="padding-copy">
-    <strong>' . $name . ', Gracias por suscribirte a nuestro newsletter</strong> <br>
+    <strong>' .
+    $name .
+    ', Gracias por suscribirte a nuestro newsletter</strong> <br>
     <p>
         A partir de ahora recibiras todas nuestras novedades y las ultimas noticias de automatización de portones.
     </p>
@@ -180,8 +200,12 @@ $mensaje = '
 
 <tr>
 <td align="left" style="font-size: 14px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #999999; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 0 0;" class="padding-copy">
-    Formulario enviado el ' . $date . '.<br>
-    Numero de serie: ' . $boundary . '</td>
+    Formulario enviado el ' .
+    $date .
+    '.<br>
+    Numero de serie: ' .
+    $boundary .
+    '</td>
                                         </tr>
 <tr>
 <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
@@ -219,10 +243,10 @@ $mensaje = '
 ';
 
 // Envio del mail al usuario
-$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 $cabeceras .= 'From: Imprac < info@imprac.com.ar >' . "\r\n";
-mail("$name < $email >", "Su correo ha sido recibido", $mensaje, $cabeceras);
+mail("$name < $email >", 'Su correo ha sido recibido', $mensaje, $cabeceras);
 ?>
 
 <script type="text/javascript">

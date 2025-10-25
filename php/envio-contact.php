@@ -1,22 +1,24 @@
 <?php
 
-
 $name = $_POST['name_contact'];
 $email = $_POST['email_contact'];
 $comments = $_POST['comments_contact'];
-$date = date("d-M-y H:i");
+$date = date('d-M-y H:i');
 $origen = $_POST['origen_contact'];
 
 //Generamos un numero de control usando un aleatorio sobre la hora
 $boundary = md5(time() . rand(1, 100));
 
 //Confeccionamos el HTML con los datos del usuario
-$content = '
+$content =
+    '
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Imprac - ' . $origen . '</title>
+<title>Imprac - ' .
+    $origen .
+    '</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +46,9 @@ $content = '
 </td>
                                         </tr>
                                         <tr>
-<td bgcolor="#106299" align="center" style="font-size: 20px; line-height: 25px; font-family: Helvetica, Arial, sans-serif;  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0; background-color:#106299; color:#ffffff; vertical-align: top;">Imprac - ' . $origen . '</td>
+<td bgcolor="#106299" align="center" style="font-size: 20px; line-height: 25px; font-family: Helvetica, Arial, sans-serif;  -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0; background-color:#106299; color:#ffffff; vertical-align: top;">Imprac - ' .
+    $origen .
+    '</td>
                                         </tr>
                                         <tr>
 <td bgcolor="#106299" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0; background-color:#106299; color:#ffffff;">&nbsp;</td>
@@ -58,7 +62,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $name . '
+        ' .
+    $name .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -70,7 +76,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $email . '
+        ' .
+    $email .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -82,7 +90,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $comments . '
+        ' .
+    $comments .
+    '
     </td>
 </tr>
 
@@ -95,7 +105,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $date . '
+        ' .
+    $date .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -107,7 +119,9 @@ $content = '
 </tr>
 <tr>
     <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 10px 0 0;">
-        ' . $boundary . '
+        ' .
+    $boundary .
+    '
     </td>
 </tr>
 <td><hr></td>
@@ -138,10 +152,15 @@ $content = '
 </html>
 ';
 
-mail('info@imprac.com.ar', 'Formulario Web Contacto', $content, "MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >");
+mail(
+    'info@imprac.com.ar',
+    'Formulario Web Contacto',
+    $content,
+    "MIME-Version: 1.0\nContent-type: text/html; charset=UTF-8\nFrom: $name < $email >",
+);
 
 // Registro la consulta en la bdd
-include("conexion-contacto.php");
+include 'conexion-contacto.php';
 
 //preparamos el mensaje de confirmacion que le enviaremos al remitente.
 // $mensaje = '
@@ -155,7 +174,6 @@ include("conexion-contacto.php");
 // <meta http-equiv="X-UA-Compatible" content="IE=edge">
 // </head>
 // <body style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; margin: 0; padding: 0;">
-
 
 // <!-- ONE COLUMN SECTION -->
 // <table border="0" cellpadding="0" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important;">

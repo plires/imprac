@@ -22,29 +22,58 @@
 ?>
 
 <!-- Modal Descargas -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title bold" id="exampleModalLabel">DESCARGA</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <form action="" method="post">
-
         <div class="modal-body">
-          <p class="color_principal bold">Coloque su email y la descarga comenzará automaticamente.</p>
-            <div class="form-group">
-              <label for="email_download" class="col-form-label">Su email:</label>
-              <input id="email_download" name="email_download" type="email" class="form-control">
-              <span class="error"><?php echo $errorsDownload['email_download']; ?></span>
-            </div>
+          <p class="color_principal bold">
+            Coloque su email y la descarga comenzará automaticamente.
+          </p>
+          <div class="form-group">
+            <label for="email_download" class="col-form-label">Su email:</label>
+            <input
+              id="email_download"
+              name="email_download"
+              type="email"
+              class="form-control"
+            />
+            <span class="error"
+              ><?php echo $errorsDownload['email_download']; ?></span
+            >
+          </div>
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-          <button id="descarga" name="descarga" type="submit" class="btn_descargas">Descargar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Cancelar
+          </button>
+          <button
+            id="descarga"
+            name="descarga"
+            type="submit"
+            class="btn_descargas"
+          >
+            Descargar
+          </button>
         </div>
       </form>
     </div>

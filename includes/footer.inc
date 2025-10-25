@@ -1,12 +1,14 @@
 <footer class="container-fluid">
   <div class="row">
     <div
-      class="col-md-6 text-center align_vertical_horizontal margin_bottom_30">
+      class="col-md-6 text-center align_vertical_horizontal margin_bottom_30"
+    >
       <div>
         <img
           class="logo_footer"
           src="img/logo_footer.png"
-          alt="logo imprac footer" />
+          alt="logo imprac footer"
+        />
       </div>
     </div>
 
@@ -48,9 +50,7 @@
   <div class="row margin_top_10">
     <div class="col-md-12 text-center">
       <p class="derechos_reservados_footer">
-        &reg;
-        <?= date('Y'); ?>
-        - IMPRAC todos los derechos reservados.
+        &reg; <?= date('Y'); ?> - IMPRAC todos los derechos reservados.
       </p>
     </div>
   </div>

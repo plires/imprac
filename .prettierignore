@@ -1,0 +1,30 @@
+# Siempre
+node_modules
+vendor
+dist
+build
+coverage
+.tmp
+.cache
+
+# Librerías de terceros que tengas en el repo
+public/vendor
+public/libs
+public/js/vendor
+public/js/lib
+assets/vendor
+assets/libs
+
+# Archivos minificados o generados
+**/*.min.js
+**/*.min.css
+**/*.bundle.js
+**/*.map
+
+# Específicos
+**/jquery*.js
+**/bootstrap*.{js,css}
+**/popper*.js
+**/ionicons*.js
+**/slick*.js
+**/slick*.css

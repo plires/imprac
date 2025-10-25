@@ -1,5 +1,4 @@
-$(document).on('ready', function() {
-
+$(document).on('ready', function () {
   // Plugin Slick (Carrousel Galeria) Funcion
   $('.galeria').slick({
     autoplay: true,
@@ -16,35 +15,34 @@ $(document).on('ready', function() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-        }
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
+          slidesToScroll: 1,
+        },
+      },
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
-    ]
-  });
+    ],
+  })
 
   /* Cierra el seguidor de "Te llamamos ahora" */
-  $('#cerrar-seguidor').on('click', function(){
-    $('#seguidor').slideToggle('slow');
-  });
+  $('#cerrar-seguidor').on('click', function () {
+    $('#seguidor').slideToggle('slow')
+  })
 
-  $('#cerrar-seguidor-tel').on('click', function(){
-    $('#seguidor-tel').slideToggle('slow');
-  });
-
-});
+  $('#cerrar-seguidor-tel').on('click', function () {
+    $('#seguidor-tel').slideToggle('slow')
+  })
+})

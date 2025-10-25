@@ -1,11 +1,13 @@
 <!-- Validaciones del Newsletter -->
-<?php // include_once("includes/validaciones-newsletter.inc"); ?>
+<?php
+// include_once("includes/validaciones-newsletter.inc");
+?>
 
 <!doctype html>
 <html lang="es">
 	<head>
 		<!-- Tag Manager Head -->
-		<?php include_once("includes/tag_manager_head.inc"); ?>
+		<?php include_once 'includes/tag_manager_head.inc'; ?>
 		
 		<!-- Indica pagina activa en el nav menu -->
 		<?php $current = 'productos'; ?>
@@ -42,13 +44,13 @@
 
 	<body>
 		<!-- Tag Manager Body -->
-  	<?php include_once("includes/tag_manager_head.inc"); ?>
+  	<?php include_once 'includes/tag_manager_head.inc'; ?>
 		
 		<!-- Header -->
-		<?php include_once('includes/header.inc'); ?>
+		<?php include_once 'includes/header.inc'; ?>
 
 		<!-- WhatsApp -->
-		<?php include_once("includes/wapp.inc") ?>
+		<?php include_once 'includes/wapp.inc'; ?>
 		
 		<!-- Faja foto encabezado -->
 		<section class="container-fluid fondo_gris">
@@ -116,13 +118,15 @@
 		<!-- Faja CTA end-->
 
 		<!-- Newsletter -->
-		<?php // include_once('includes/newsletter.inc'); ?>
+		<?php
+// include_once('includes/newsletter.inc');
+?>
 
 		<!-- Faja Asesoramiento -->
-		<?php include_once('includes/faja-asesoramiento.inc'); ?>
+		<?php include_once 'includes/faja-asesoramiento.inc'; ?>
 
 		<!-- Footer -->
-		<?php include_once('includes/footer.inc'); ?>
+		<?php include_once 'includes/footer.inc'; ?>
 
 
 		<!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->

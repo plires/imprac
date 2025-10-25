@@ -6,109 +6,107 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 $errorsContact = [];
-$nameContact = "";
-$emailContact = "";
-$commentsContact = "";
-$origenContact = "Contacto";
+$nameContact = '';
+$emailContact = '';
+$commentsContact = '';
+$origenContact = 'Contacto';
 
 // Verifica si el POST proviene del formulario de contacto
 if (isset($_POST['email_contact'])) {
+    // reCAPTCHA
+    $recaptchaResponse = $_POST['g-recaptcha-response'];
+    $secretKey = $_ENV['RECAPTCHA_SECRET_KEY'];
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
 
-	// reCAPTCHA
-	$recaptchaResponse = $_POST['g-recaptcha-response'];
-	$secretKey = $_ENV['RECAPTCHA_SECRET_KEY'];
-	$url = 'https://www.google.com/recaptcha/api/siteverify';
+    $response = file_get_contents(
+        $url . '?secret=' . $secretKey . '&response=' . $recaptchaResponse,
+    );
+    $responseKeys = json_decode($response, true);
 
-	$response = file_get_contents($url . '?secret=' . $secretKey . '&response=' . $recaptchaResponse);
-	$responseKeys = json_decode($response, true);
+    // Validaciones de campos
+    include 'validaciones/funciones_validar.php';
 
+    if (campoVacio($_POST['name_contact'])) {
+        $errorsContact['name_contact'] = 'Ingresa tu nombre';
+    } else {
+        $nameContact = htmlspecialchars(trim($_POST['name_contact']));
+    }
 
-	// Validaciones de campos
-	include('validaciones/funciones_validar.php');
+    if (!comprobar_email($_POST['email_contact'])) {
+        $errorsContact['email_contact'] = 'Ingresa un email válido';
+    } else {
+        $emailContact = htmlspecialchars(trim($_POST['email_contact']));
+    }
 
-	if (campoVacio($_POST['name_contact'])) {
-		$errorsContact['name_contact'] = 'Ingresa tu nombre';
-	} else {
-		$nameContact = htmlspecialchars(trim($_POST['name_contact']));
-	}
+    if (campoVacio($_POST['comments_contact'])) {
+        $errorsContact['comments_contact'] = 'Ingresa tu comentario';
+    } else {
+        $commentsContact = htmlspecialchars(trim($_POST['comments_contact']));
+    }
 
-	if (!comprobar_email($_POST['email_contact'])) {
-		$errorsContact['email_contact'] = 'Ingresa un email válido';
-	} else {
-		$emailContact = htmlspecialchars(trim($_POST['email_contact']));
-	}
+    // Protección contra SPAM en los campos
+    $spamPattern = '/[ДЙЫЖЩЦЧШЭЮЯЁ]|(http[s]?:\/\/|www\.)|(tinyurl\.com|bit\.ly|goo\.gl)/u';
+    if (preg_match($spamPattern, $nameContact) || preg_match($spamPattern, $commentsContact)) {
+        $errorsContact['recaptcha'] = 'Mensaje identificado como SPAM (contenido sospechoso)';
+    }
 
-	if (campoVacio($_POST['comments_contact'])) {
-		$errorsContact['comments_contact'] = 'Ingresa tu comentario';
-	} else {
-		$commentsContact = htmlspecialchars(trim($_POST['comments_contact']));
-	}
+    // Honeypot adicional (un campo oculto en el formulario)
+    if (!empty($_POST['honeypot_field'])) {
+        $errorsContact['recaptcha'] = 'Mensaje identificado como SPAM (honeypot activado)';
+    }
 
-	// Protección contra SPAM en los campos
-	$spamPattern = '/[ДЙЫЖЩЦЧШЭЮЯЁ]|(http[s]?:\/\/|www\.)|(tinyurl\.com|bit\.ly|goo\.gl)/u';
-	if (
-		preg_match($spamPattern, $nameContact) ||
-		preg_match($spamPattern, $commentsContact)
-	) {
-		$errorsContact['recaptcha'] = 'Mensaje identificado como SPAM (contenido sospechoso)';
-	}
+    // Verificación de reCAPTCHA
+    if (empty($responseKeys['success']) || $responseKeys['score'] < 0.5) {
+        $errorsContact['recaptcha'] = 'Error: reCAPTCHA no válido o actividad sospechosa.';
+    }
 
-	// Honeypot adicional (un campo oculto en el formulario)
-	if (!empty($_POST['honeypot_field'])) {
-		$errorsContact['recaptcha'] = 'Mensaje identificado como SPAM (honeypot activado)';
-	}
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $file = 'ip_attempts.log';
+    $timeLimit = 120; // 60 segundos
+    $maxAttempts = 3; // Máximo de intentos permitidos
 
-	// Verificación de reCAPTCHA
-	if (empty($responseKeys['success']) || $responseKeys['score'] < 0.5) {
-		$errorsContact['recaptcha'] = 'Error: reCAPTCHA no válido o actividad sospechosa.';
-	}
+    // Leer el contenido del archivo de registro
+    $attempts = [];
+    if (file_exists($file)) {
+        $attempts = json_decode(file_get_contents($file), true) ?? [];
+    }
 
-	$ip = $_SERVER['REMOTE_ADDR'];
-	$file = 'ip_attempts.log';
-	$timeLimit = 120; // 60 segundos
-	$maxAttempts = 3; // Máximo de intentos permitidos
+    // Verificar la IP en el archivo de registro
+    if (isset($attempts[$ip])) {
+        $timeSinceLastAttempt = time() - $attempts[$ip]['last_attempt'];
+        if ($timeSinceLastAttempt < $timeLimit) {
+            if ($attempts[$ip]['count'] >= $maxAttempts) {
+                $errorsContact['attempts'] =
+                    'Demasiados intentos desde esta IP, por favor espera al menos 120 segundos para volver a enviar.';
+            }
+            $attempts[$ip]['count']++;
+        } else {
+            // Reinicia el contador si ya pasó el tiempo límite
+            $attempts[$ip]['count'] = 1;
+        }
+        $attempts[$ip]['last_attempt'] = time();
+    } else {
+        // Registrar nueva IP
+        $attempts[$ip] = [
+            'last_attempt' => time(),
+            'count' => 1,
+        ];
+    }
 
-	// Leer el contenido del archivo de registro
-	$attempts = [];
-	if (file_exists($file)) {
-		$attempts = json_decode(file_get_contents($file), true) ?? [];
-	}
+    // Guardar los datos actualizados en el archivo
+    file_put_contents($file, json_encode($attempts));
 
-	// Verificar la IP en el archivo de registro
-	if (isset($attempts[$ip])) {
-		$timeSinceLastAttempt = time() - $attempts[$ip]['last_attempt'];
-		if ($timeSinceLastAttempt < $timeLimit) {
-			if ($attempts[$ip]['count'] >= $maxAttempts) {
-				$errorsContact['attempts'] = 'Demasiados intentos desde esta IP, por favor espera al menos 120 segundos para volver a enviar.';
-			}
-			$attempts[$ip]['count']++;
-		} else {
-			// Reinicia el contador si ya pasó el tiempo límite
-			$attempts[$ip]['count'] = 1;
-		}
-		$attempts[$ip]['last_attempt'] = time();
-	} else {
-		// Registrar nueva IP
-		$attempts[$ip] = [
-			'last_attempt' => time(),
-			'count' => 1
-		];
-	}
-
-	// Guardar los datos actualizados en el archivo
-	file_put_contents($file, json_encode($attempts));
-
-	if (count($errorsContact) === 0) {
-		include_once("php/envio-contact.php");
-	}
+    if (count($errorsContact) === 0) {
+        include_once 'php/envio-contact.php';
+    }
 }
-
 ?>
 <!-- formulario Contacto end-->
 
 
 <!-- Validaciones del Newsletter -->
-<?php // include_once("includes/validaciones-newsletter.inc"); 
+<?php
+// include_once("includes/validaciones-newsletter.inc");
 ?>
 
 <!doctype html>
@@ -116,7 +114,7 @@ if (isset($_POST['email_contact'])) {
 
 <head>
 	<!-- Tag Manager Head -->
-	<?php include_once("includes/tag_manager_head.inc"); ?>
+	<?php include_once 'includes/tag_manager_head.inc'; ?>
 
 	<!-- Indica pagina activa en el nav menu -->
 	<?php $current = 'contacto'; ?>
@@ -150,13 +148,13 @@ if (isset($_POST['email_contact'])) {
 
 <body>
 	<!-- Tag Manager Body -->
-	<?php include_once("includes/tag_manager_head.inc"); ?>
+	<?php include_once 'includes/tag_manager_head.inc'; ?>
 
 	<!-- Header -->
-	<?php include_once('includes/header.inc'); ?>
+	<?php include_once 'includes/header.inc'; ?>
 
 	<!-- WhatsApp -->
-	<?php include_once("includes/wapp.inc") ?>
+	<?php include_once 'includes/wapp.inc'; ?>
 
 	<!-- Faja foto encabezado -->
 	<section class="container-fluid fondo_contacto">
@@ -257,8 +255,9 @@ if (isset($_POST['email_contact'])) {
 	<!-- mapa end-->
 
 	<!-- Newsletter -->
-	<?php // include_once('includes/newsletter.inc'); 
-	?>
+	<?php
+// include_once('includes/newsletter.inc');
+?>
 
 	<!-- Faja equipo frase -->
 	<section class="container-fluid faja_destacado_equipo">
@@ -275,10 +274,10 @@ if (isset($_POST['email_contact'])) {
 	<!-- Faja equipo frase end-->
 
 	<!-- Imagen Footer -->
-	<?php include_once('includes/imagen-footer.inc'); ?>
+	<?php include_once 'includes/imagen-footer.inc'; ?>
 
 	<!-- Header -->
-	<?php include_once('includes/footer.inc'); ?>
+	<?php include_once 'includes/footer.inc'; ?>
 
 
 	<!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->
