@@ -89,7 +89,7 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center contentRepuestosAccesorios">
 					<div class="contenedor">
 						<a href="cremalleras.php">
 							<img class="w-100 imagen" src="img/accesorios/cremalleras.jpg" alt="centrales">
@@ -101,7 +101,7 @@
 					</a>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center contentRepuestosAccesorios">
 					<div class="contenedor">
 						<a href="cerraduras.php">
 							<img class="w-100 imagen" src="img/accesorios/cerraduras.jpg" alt="cerradura-220v">
@@ -113,7 +113,7 @@
 					</a>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center contentRepuestosAccesorios">
 					<div class="contenedor">
 						<a href="cerraduras-12v.php">
 							<img class="w-100 imagen" src="img/accesorios/cerraduras-12v.jpg" alt="cerradura 12v">
@@ -125,7 +125,7 @@
 					</a>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center contentRepuestosAccesorios">
 					<div class="contenedor">
 						<a href="fotocelula-oval.php">
 							<img class="w-100 imagen" src="img/accesorios/fotocelula-oval.jpg" alt="fotocelula oval">
@@ -137,7 +137,19 @@
 					</a>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 text-center contentRepuestosAccesorios">
+					<div class="contenedor">
+						<a href="repuestos.php">
+							<img class="w-100 imagen" src="img/accesorios/repuestos/repuestos.jpg" alt="repuestos">
+						</a>
+					</div>
+					<a class="faja_electronica" href="repuestos.php">REPUESTOS</a>
+					<a href="repuestos.php" class="btn_contacto btn_electronica margin_top_10">
+						VER MÁS
+					</a>
+				</div>
+
+				<div class="col-md-4 text-center contentRepuestosAccesorios">
 					<div class="contenedor">
 						<a href="semaforos.php">
 							<img class="w-100 imagen" src="img/accesorios/semaforos.jpg" alt="transmisores">

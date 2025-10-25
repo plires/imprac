@@ -525,6 +525,10 @@ nav ul li a:hover {
   font-size: 1.3em;
 }
 
+.contentRepuestosAccesorios {
+  margin-bottom: 2rem;
+}
+
 .contenedor {
   overflow: hidden;
   -webkit-transition: all ease-in-out 0.3s; /* Safari */
