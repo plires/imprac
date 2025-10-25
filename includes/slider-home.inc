@@ -78,7 +78,7 @@
             VER MÁS
           </a>
           <img
-            src="img/slide-home/slide-home-levadizo-gr.png"
+            src="img/slide-home/slide-home-levadizo-gr.webp"
             data-position="-70,580"
             data-in="left"
             data-out="top"
@@ -233,7 +233,7 @@
       <!-- Slider Corredizos medium -->
       <div class="carousel-item active margin_bottom_30">
         <img
-          class="d-block w-80"
+          class="d-block imgSlideHome"
           src="img/slide-home/slide-home-corredizos-mod.png"
           alt="Portones corredizos slide"
         />
@@ -247,8 +247,8 @@
       <!-- Slider Levadizos medium -->
       <div class="carousel-item margin_bottom_30">
         <img
-          class="d-block w-80"
-          src="img/slide-home/slide-home-levadizo.png"
+          class="d-block imgSlideHome"
+          src="img/slide-home/slide-home-levadizo.webp"
           alt="Portones levadizos slide"
         />
         <div class="carousel-caption d-md-block">
@@ -261,7 +261,7 @@
       <!-- Slider Electronica medium -->
       <div class="carousel-item margin_bottom_30">
         <img
-          class="d-block w-80"
+          class="d-block imgSlideHome"
           src="img/slide-home/slide-home-electronica.png"
           alt="electronica slide"
         />
@@ -275,7 +275,7 @@
       <!-- Slider Repuestos medium -->
       <div class="carousel-item margin_bottom_30">
         <img
-          class="d-block w-80"
+          class="d-block imgSlideHome"
           src="img/slide-home/slide-home-semaforo.png"
           alt="repuestos slide"
         />

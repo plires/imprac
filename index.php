@@ -70,77 +70,53 @@
 				<div class="col-md-12">
 					<div class="motores">
 
-						<!-- Tankker 400 -->
+						<!-- Icon 400 -->
 						<div class="text-center envoltorio">
-						  	<a href="corredizo-tankker-400.php">
-						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-400.png" alt="motor para porton corredizo tankker 400">
+						  	<a href="corredizo-icon-400.php">
+						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-400.webp" alt="motor para porton corredizo icon 400">
 						  	</a>
-						 	<a href="corredizo-tankker-400.php">
-						 		<img class="w-80 margin_bottom_10 imagen_motor_home" src="img/automatizacion/corredizos/tankker-400-titulo.gif" alt="titulo tankker 400">
+						 	<a href="corredizo-icon-400.php">
+						 		<img class="titleMotorHome" src="img/automatizacion/corredizos/icon-400-titulo.png" alt="titulo icon 400">
 						 	</a>
 						 	<p>Automatizador para portones <br>corredizos de hasta 400 kg</p>
 						</div>
-						<!-- Tankker 400 -->
+						<!-- Icon 400 -->
 
-						<!-- Tankker 400 hierro -->
+						<!-- Icon 600 -->
 						<div class="text-center envoltorio">
-						  	<a href="corredizo-tankker-400-hierro.php">
-						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-400-hierro.png" alt="motor para porton corredizo tankker 400 hierro">
+						  	<a href="corredizo-icon-600.php">
+						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-600.webp" alt="motor para porton corredizo icon 600">
 						  	</a>
-						 	<a href="corredizo-tankker-400.php">
-						 		<img class="w-80 margin_bottom_10 imagen_motor_home" src="img/automatizacion/corredizos/tankker-400-hierro-titulo.gif" alt="titulo tankker 400 hierro">
-						 	</a>
-						 	<p>Automatizador para portones <br>corredizos de hasta 400 kg</p>
-						</div>
-						<!-- Tankker 400 hierro -->
-
-						<!-- Tankker 600 -->
-						<div class="text-center envoltorio">
-						  	<a href="corredizo-tankker-600.php">
-						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-600.png" alt="motor para porton corredizo tankker 600">
-						  	</a>
-						 	<a href="corredizo-tankker-600.php">
-						 		<img class="w-80 margin_bottom_10 imagen_motor_home" src="img/automatizacion/corredizos/tankker-600-titulo.gif" alt="titulo tankker 600">
+						 	<a href="corredizo-icon-600.php">
+							 <img class="titleMotorHome" src="img/automatizacion/corredizos/icon-600-titulo.png" alt="titulo icon 600">
 						 	</a>
 						 	<p>Automatizador para portones <br>corredizos de hasta 600 kg</p>
 						</div>
-						<!-- Tankker 400 -->
+						<!-- Icon 600 -->
 
-						<!-- Tankker 600 hierro -->
-						<div class="text-center envoltorio">
-						  	<a href="corredizo-tankker-600-hierro.php">
-						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-600-hierro.png" alt="motor para porton corredizo tankker 600 hierro">
-						  	</a>
-						 	<a href="corredizo-tankker-600.php">
-						 		<img class="w-80 margin_bottom_10 imagen_motor_home" src="img/automatizacion/corredizos/tankker-600-hierro-titulo.gif" alt="titulo tankker 600 hierro">
-						 	</a>
-						 	<p>Automatizador para portones <br>corredizos de hasta 600 kg</p>
-						</div>
-						<!-- Tankker 600 hierro -->
-
-						<!-- Tankker 1000 -->
+						<!-- Icon 1000 -->
 						<div class="text-center envoltorio">
 						  	<a href="corredizo-tankker-1000.php">
 						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-1000.png" alt="motor para porton corredizo tankker 1000">
 						  	</a>
 						 	<a href="corredizo-tankker-1000.php">
-						 		<img class="w-95 margin_bottom_10 imagen_motor_home" src="img/automatizacion/corredizos/tankker-1000/tankker-1000-titulo.png" alt="titulo tankker 1000">
+							 <img class="titleMotorHome" src="img/automatizacion/corredizos/icon-1000-titulo.png" alt="titulo icon 100">
 						 	</a>
 						 	<p>Automatizador para portones <br>corredizos de hasta 1000 kg</p>
 						</div>
-						<!-- Tankker 1000 -->
+						<!-- Icon 1000 -->
 
-						<!-- Tankker 1500 -->
+						<!-- Icon 1500 -->
 						<div class="text-center envoltorio">
 						  	<a href="corredizo-tankker-1500.php">
 						    	<img class="w-100 margin_bottom_30 imagen_motor_home" src="img/motor-1500.png" alt="motor para porton corredizo tankker 1500">
 						  	</a>
 						 	<a href="corredizo-tankker-1500.php">
-						 		<img class="w-95 margin_bottom_10 imagen_motor_home" src="img/automatizacion/corredizos/tankker-1500/tankker-1500-titulo.png" alt="titulo tankker 1500">
+							 <img class="titleMotorHome" src="img/automatizacion/corredizos/icon-1500-titulo.png" alt="titulo icon 1500">
 						 	</a>
 						 	<p>Automatizador para portones <br>corredizos de hasta 1500 kg</p>
 						</div>
-						<!-- Tankker 1500 -->
+						<!-- Icon 1500 -->
 
 					</div>
 				</div>
