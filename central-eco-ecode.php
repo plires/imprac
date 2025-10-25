@@ -15,7 +15,7 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Central electronica para motores de porton de uso domiciliario - TKR.">
+		<meta name="description" content="Central electronica para motores de porton de uso domiciliario - ECO.">
 
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" href="img/apple-icon.png">
@@ -39,7 +39,7 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 
-		<title>Central electronica TKR. Para automatizacion de portones.</title>
+		<title>Central electronica ECO. Para automatizacion de portones.</title>
 	</head>
 
 	<body>
@@ -60,7 +60,7 @@
 					<div class="col-md-12 text-center align_vertical_horizontal">
 						<div>
 							<h1 class="h1_centrales margin_top_30 margin_bottom_60 ">CENTRAL ELECTRÓNICA</h1>
-							<img src="img/electronica/centrales/tkr-titulo-principal.png" alt="tkr central electronica para portones automaticos">
+							<img src="img/electronica/centrales/eco-ecode-titulo-principal.png" alt="ECO ecode central electronica para portones automaticos">
 						</div>
 					</div>
 
@@ -77,18 +77,18 @@
 					<div class="col-md-6 align_vertical_top">
 						<div class="parent-container">
 							<div class="col-md-12 margin_bottom_60">
-								<a title="Central TKR - IMPRAC" href="img/electronica/centrales/central-tkr-gr.jpg">
+								<a title="Central ECO - E-CODE - IMPRAC" href="img/electronica/centrales/central-tkr-gr.jpg">
 									<img class="w-100" src="img/electronica/centrales/central-tkr-gr.jpg">
 								</a>
 							</div>
 							<div class="row margin_bottom_60">
 								<div class="col-sm-6 col-md-12 col-lg-6 text center">
-									<a title="Central TKR - IMPRAC" href="img/electronica/centrales/central-tkr-bottom-a.jpg">
+									<a title="Central ECO - E-CODE - IMPRAC" href="img/electronica/centrales/central-tkr-bottom-a.jpg">
 										<img class="w-100" src="img/electronica/centrales/central-tkr-bottom-a.jpg">
 									</a>
 								</div>
 								<div class="col-sm-6 col-md-12 col-lg-6 text center">
-									<a title="Central TKR - IMPRAC" href="img/electronica/centrales/central-tkr-bottom-b.jpg">
+									<a title="Central ECO - E-CODE - IMPRAC" href="img/electronica/centrales/central-tkr-bottom-b.jpg">
 										<img class="w-100" src="img/electronica/centrales/central-tkr-bottom-b.jpg">
 									</a>
 								</div>
@@ -100,7 +100,7 @@
 						<div>
 							<p class="parrafo_descripcion_textos">
 								Dispositivo electrónico especialmente diseñado para 
-								controlar la línea de motores Tankker, posee posibilidad de lectura de fin de carrera SMART HALD (sensor inteligente detección automática apertura/cierre). Central electrónica full, con arranque y parada suave  
+								controlar la línea de motores ICON, posee posibilidad de lectura de fin de carrera SMART HALD (sensor inteligente detección automática apertura/cierre). Central electrónica full, con arranque y parada suave  
 							</p>
 
 							<p class="parrafo_descripcion_textos bold">Características:</p>
@@ -124,26 +124,6 @@
 			</div>
 		</section>
 		<!-- Faja familia de electronica end-->
-
-		<!-- Faja CTA 
-		<section class="container-fluid">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center align_vertical_horizontal">
-						<div>
-							<div class="contenedor_plano">
-								<h4>Deslizá el mouse sobre la imagen y hace Click en los botones para ver más información</h4>
-								<img class="w-100" src="img/electronica/centrales/central-tkr-plano.jpg" alt="plano central tkr">
-								<button id="example" type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Conexion 220V.">
-									24Vca
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		Faja CTA end-->
 
 		<!-- Faja Asesoramiento -->
 		<?php include_once 'includes/faja-asesoramiento.inc'; ?>

@@ -106,37 +106,35 @@
 
 					<div class="col-md-4 text-center margin_bottom_30">
 						<div class="contenedor">
-							<a href="central-tkr.php">
+							<a href="central-eco-1hp.php">
 								<img class="w-100 imagen" src="img/electronica/tkr.jpg" alt="central para porton automatico tkr">
 							</a>
 						</div>
-						<img class="titulo_centrales" src="img/electronica/tkr-titulo.gif" alt="logo tkr para central porton automatico">
+						<img class="titulo_centrales" src="img/electronica/centrales/eco-1hp-titulo-principal.png" alt="logo eco 1hp para central porton automatico">
 						<p class="parrafo_familia_home">
 							Dispositivo electrónico capaz de controlar 
-							motores de fase partida (3 cables) especialmente diseñada para ser aplicada en la <strong>línea de motores TANKKER.</strong>
+							motores de fase partida (3 cables) especialmente diseñada para ser aplicada en la <strong>línea de motores ICON.</strong>
 						</p>
-						<a href="central-tkr.php" class="btn_contacto btn_electronica margin_top_10">
+						<a href="central-eco-1hp.php" class="btn_contacto btn_electronica margin_top_10">
 							VER MÁS
 						</a>
 					</div>
 
 					<div class="col-md-4 text-center margin_bottom_30">
 						<div class="contenedor">
-							<a href="central-tkr-f1.php">
-								<img class="w-100 imagen" src="img/electronica/tkr-f1.jpg" alt="central para porton automatico tkr-f1">
+							<a href="central-eco-ecode.php">
+								<img class="w-100 imagen" src="img/electronica/tkr-f1.jpg" alt="central para porton automatico eco ecode">
 							</a>
 						</div>
-						<img class="titulo_centrales" src="img/electronica/tkr-f1-titulo.gif" alt="logo tkr-f1 para central porton automatico">
+						<img class="titulo_centrales" src="img/electronica/centrales/eco-ecode-titulo-principal.png" alt="logo eco ecode para central porton automatico">
 						<p class="parrafo_familia_home">
 							Dispositivo electrónico capaz de controlar 
-							motores de fase partida (3 cables), línea <strong>TANKKER ultra veloz</strong>
+							motores de fase partida (3 cables), línea <strong>ICON ultra veloz</strong>
 						</p>
-						<a href="central-tkr-f1.php" class="btn_contacto btn_electronica margin_top_10">
+						<a href="central-eco-ecode.php" class="btn_contacto btn_electronica margin_top_10">
 							VER MÁS
 						</a>
 					</div>
-
-					
 
 				</div>
 			</div>
