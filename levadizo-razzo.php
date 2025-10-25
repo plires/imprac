@@ -78,13 +78,13 @@
 						<div class="parent-container">
 							<div class="col-md-12 margin_bottom_60">
 								<a title="Motor Levadizo RAZZO - IMPRAC" href="img/automatizacion/levadizos/razzo-a.jpg">
-									<img class="w-100" src="img/automatizacion/levadizos/razzo-a.jpg">
+									<img class="w-100" src="img/automatizacion/levadizos/razzo-b.jpg">
 								</a>
 							</div>
 							<div class="row margin_bottom_60">
 								<div class="col-sm-6 col-md-12 col-lg-6 text center">
 									<a title="Motor Levadizo RAZZO - IMPRAC" href="img/automatizacion/levadizos/razzo-b.jpg">
-										<img class="w-100" src="img/automatizacion/levadizos/razzo-b.jpg">
+										<img class="w-100" src="img/automatizacion/levadizos/razzo-a.jpg">
 									</a>
 								</div>
 								<div class="col-sm-6 col-md-12 col-lg-6 text center">
@@ -99,17 +99,14 @@
 					<div class="col-md-6 align_vertical_horizontal">
 						<div>
 							<p class="parrafo_descripcion_textos descripcion_motores">
-								Automatizador para portones levadizos, 
-								motorreductor super resistente, fabricado con los mejores materiales nacionales, diseño compacto, motor de ½ hp, con 
-								fusible interno térmico para evitar el 
-								recalentamiento. 
-								La caja reductora fabricada en aluminio 
-								inyectada, engranajes de acero cementado, montados sobre rulemanes, lo que asegura un alto rendimiento, gran potencia y una gran durabilidad. Central electrónica full, con desaceleración, salída para cerradura incorporada, luz de cortesia y semáforo; con gran alcance de accionamiento de los 
-								controles remotos, diseño pequeño, especial para ser cómodos en su portabilidad. 
-								Destrabe manual por corte de luz muy 
-								sencillo, con accionamiento por palanca. 
-								Es uno de los motores con más potencia del mercado, soportando ser colocado en 
-								portones de hasta 10 mts2.
+								Motor para portón levadizo fabricado con materiales de primera calidad, para garantizar la mayor durabilidad y el mejor funcionamiento.
+							</p>
+
+							<p class="parrafo_descripcion_textos descripcion_motores">
+								Montado sobre rulemanes para una mayor duración y autonomía.
+								Protegido por relevo térmico, fusible térmico incorporado en el bobinado.
+								Destrabe manual por corte de energía.
+								Sistema de fin de carrera mecánico.
 							</p>
 						</div>
 					</div>
