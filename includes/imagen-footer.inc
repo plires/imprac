@@ -4,14 +4,8 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <div>
-          <img
-            class="sello_argentina"
-            src="img/sello.png"
-            alt="sello argentina"
-          />
           <h4 class="frase_argentina_home">
-            "Somos una empresa orgullosamente Argentina, que piensa, proyecta y
-            produce en el país productos de primera calidad."
+            Pensamos en grande para ofrecerte productos sólidos, precisos y listos para desafiar el día a día.
           </h4>
         </div>
       </div>

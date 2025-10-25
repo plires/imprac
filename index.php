@@ -250,7 +250,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<span class="frase">
-							Fabricado en Argentina, <span class="bold">hecho para durar.</span>
+							Hechos para durar, <span class="bold">pensados para vos.</span>
 						</span>
 					</div>
 				</div>
