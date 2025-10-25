@@ -753,6 +753,14 @@ nav ul li a:hover {
   background-position: 50% 50%;
 }
 
+.tubulares_automatizacion {
+  background-image: url('../img/automatizacion/tubulares.jpg');
+  background-repeat: no-repeat;
+  text-align: right;
+  height: 665px;
+  background-position: 50% 50%;
+}
+
 .corredizo_img {
   margin-top: 115px;
   margin-right: 80px;
@@ -773,6 +781,11 @@ nav ul li a:hover {
 
 .levadizos_automatizacion {
   background-image: url('../img/automatizacion/levadizos-automatizacion.jpg');
+}
+
+.cortinas_automatizacion {
+  background-image: url('../img/automatizacion/cortinas.jpg');
+  text-align: left;
 }
 
 .levadizos_automatizacion {

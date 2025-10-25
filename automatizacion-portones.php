@@ -104,6 +104,30 @@
 						</div>
 					</div>
 
+					<div class="col-md-6 tubulares_automatizacion">
+						<img class="corredizo_img" src="img/automatizacion/levadizos/icono-levadizo.png" alt="icono levadizos">
+						<div class="align_derecha">
+							<h2 class="h2_automatizacion_corredizo">TUBULARES</h2>
+						</div>
+						<div class="align_derecha">
+							<a href="tubulares.php" class="btn_contacto btn_electronica margin_top_10 vermas_corredizo">
+								VER MÁS
+							</a>				
+						</div>
+					</div>
+
+					<div class="col-md-6 corredizos_automatizacion cortinas_automatizacion">
+						<img class="levadizo_img" src="img/automatizacion/levadizos/icono-levadizo.png" alt="icono levadizos">
+						<div class="align_izquierda">
+							<h2 class="h2_automatizacion_levadizo">CORTINAS METÁLICAS</h2>
+						</div>
+						<div class="align_izquierda">
+							<a href="cortinas.php" class="btn_contacto btn_electronica margin_top_10 vermas_levadizo">
+								VER MÁS
+							</a>				
+						</div>
+					</div>
+
 				</div>
 
 		</section>
