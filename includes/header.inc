@@ -9,8 +9,12 @@
     <div class="col-lg-9 text-right navegacion">
       <div class="row">
         <div class="col-lg-12">
-          <a href="tel:541144884418">
-            <span class="tel">+54 11 4488 4418</span>
+          <a
+            class="facebook"
+            href="https://wa.me/5491130904101?text=Hola%20..."
+            target="_blank"
+          >
+            <img src="img/whatsapp.png" alt="whatsapp" />
           </a>
           <a
             class="facebook"
