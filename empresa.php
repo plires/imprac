@@ -73,16 +73,13 @@
 				<div class="col-md-12 text-center">
 					<h2 class="color_principal margin_top_30 margin_bottom_60 ">Sobre Nosotros</h2>
 					<p>
-						Somos una empresa dedicada a la fabricación y distribución de insumos y accesorios para 
-						automatizar portones; con más de 20 años de experiencia en el mercado y una filosofía abocada al servicio y la pronta respuesta, entendiendo la importancia del respaldo que necesita este 
-						tipo de mercado.
+						Somos una empresa dedicada a la fabricación y distribución de insumos y accesorios para automatizar portones; con más de 25 años de experiencia en el mercado y una política de calidad dedicada al servicio y la pronta atención postventa, entendiendo la importancia del respaldo que necesita este tipo de mercado.
 					</p>
 					<p>
-						Con productos 100% fabricación nacional, apostando al desarrollo de la industria ARGENTINA, con la ventaja que esto implica en la seguridad de dar garantía total en stock y repuestos.
+						Venta mayorista y minorista, con una amplia variedad de productos para cualquier tipo de proyecto de automatización, junto con la garantía total en stock y repuestos.
 					</p>
 					<p>
-						Venta exclusiva al gremio con productos robustos y de larga duración como motores, centrales electrónicas, controles remotos, cerraduras, semáforos, cremalleras, fotocélulas 
-						y barreras vehiculares.
+						Ofrecemos productos de una calidad superior para asegurar un buen funcionamiento, el menor porcentaje de falla y una mayor duración, por eso usamos los mejores materiales posibles en todos nuestros motores, centrales electrónicas, controles remotos, y accesorios.
 					</p>
 				</div>
 			</div>
