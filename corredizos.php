@@ -95,111 +95,74 @@
 		<!-- Faja familia de corredizos -->
 		<section class="container margin_top_30 margin_bottom_60">
 			<div class="row">
-				
-				
-				<!-- tankker 400 -->
-				<div class="col-md-6 text-center margin_bottom_60">
-					<a href="corredizo-tankker-400.php">
+
+			<!-- Icon 400 -->
+			<div class="col-md-6 text-center margin_bottom_60">
+					<a href="corredizo-icon-400.php">
 						<div class="contenedor cont_corredizos margin_bottom_30">
-							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tankker-400.jpg" alt="tankker 400">
+							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/icon-400.webp" alt="icon 400">
 						</div>
 					</a>
-					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/tankker-400-titulo.gif" alt="titulo tankker 400">
+					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/icon-400-titulo.png" alt="titulo icon 400">
 					<p class="parrafo_familia_home">
 						Automatizador para portones corredizos de hasta 400 kg, gran durabilidad y fuerza.
 					</p>
-					<a href="corredizo-tankker-400.php" class="btn_contacto btn_electronica margin_top_10">
+					<a href="corredizo-icon-400.php" class="btn_contacto btn_electronica margin_top_10">
 						VER MÁS
 					</a>
 				</div>
-				<!-- tankker 400 end-->
+				<!-- Icon 400 end-->
 
-				<!-- tankker 400 hierro -->
-				<div class="col-md-6 text-center margin_bottom_60">
-					<a href="corredizo-tankker-400-hierro.php">
+			<!-- Icon 600 -->
+			<div class="col-md-6 text-center margin_bottom_60">
+					<a href="corredizo-icon-600.php">
 						<div class="contenedor cont_corredizos margin_bottom_30">
-							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tankker-400-hierro.jpg" alt="tankker 400 hierro">
+							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/icon-600-bn.webp" alt="icon 600">
 						</div>
 					</a>
-					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/tankker-400-hierro-titulo.gif" alt="titulo tankker 400 hierro">
-					<p class="parrafo_familia_home">
-						Automatizador para portones corredizos de hasta 400 kg, gran durabilidad y fuerza.
-					</p>
-					<a href="corredizo-tankker-400-hierro.php" class="btn_contacto btn_electronica margin_top_10">
-						VER MÁS
-					</a>
-				</div>
-				<!-- tankker 400 hierro end-->
-
-				<!-- tankker 600 -->
-				<div class="col-md-6 text-center margin_bottom_60">
-					<a href="corredizo-tankker-600.php">
-						<div class="contenedor cont_corredizos margin_bottom_30">
-							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tankker-600.jpg" alt="tankker 600">
-						</div>
-					</a>
-					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/tankker-600-titulo.gif" alt="titulo tankker 600">
+					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/icon-600-titulo.png" alt="titulo icon 600">
 					<p class="parrafo_familia_home">
 						Automatizador para portones corredizos de hasta 600 kg, gran durabilidad y fuerza.
 					</p>
-					<a href="corredizo-tankker-600.php" class="btn_contacto btn_electronica margin_top_10">
+					<a href="corredizo-icon-600.php" class="btn_contacto btn_electronica margin_top_10">
 						VER MÁS
 					</a>
 				</div>
-				<!-- tankker 600 end-->
-
-				<!-- tankker 600 hierro -->
+				<!-- Icon 600 end-->
+				
+				<!-- Icon 1000 -->
 				<div class="col-md-6 text-center margin_bottom_60">
-					<a href="corredizo-tankker-600-hierro.php">
+					<a href="corredizo-icon-1000.php">
 						<div class="contenedor cont_corredizos margin_bottom_30">
-							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tankker-600-hierro.jpg" alt="tankker 600 hierro">
+							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tanker-1000-byn.jpg" alt="icon 1000">
 						</div>
 					</a>
-					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/tankker-600-hierro-titulo.gif" alt="titulo tankker 600 hierro">
-					<p class="parrafo_familia_home">
-						Automatizador para portones corredizos de hasta 600 kg, gran durabilidad y fuerza.
-					</p>
-					<a href="corredizo-tankker-600-hierro.php" class="btn_contacto btn_electronica margin_top_10">
-						VER MÁS
-					</a>
-				</div>
-				<!-- tankker 600 hierro end-->
-
-				<!-- tankker 1000 -->
-				<div class="col-md-6 text-center margin_bottom_60">
-					<a href="corredizo-tankker-1000.php">
-						<div class="contenedor cont_corredizos margin_bottom_30">
-							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tanker-1000-byn.jpg" alt="tankker 1000">
-						</div>
-					</a>
-					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/tankker-1000-titulo.png" alt="titulo tankker 1000">
+					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/icon-1000-titulo.png" alt="titulo icon 1000">
 					<p class="parrafo_familia_home">
 						Automatizador industrial para portones corredizos de hasta 1000 kg, gran durabilidad y fuerza.
 					</p>
-					<a href="corredizo-tankker-1000.php" class="btn_contacto btn_electronica margin_top_10">
+					<a href="corredizo-icon-1000.php" class="btn_contacto btn_electronica margin_top_10">
 						VER MÁS
 					</a>
 				</div>
-				<!-- tankker 1000 end-->
+				<!-- Icon 1000 end-->
 
-				<!-- tankker 1500 -->
+				<!-- Icon 1500 -->
 				<div class="col-md-6 text-center margin_bottom_60">
-					<a href="corredizo-tankker-1500.php">
+					<a href="corredizo-icon-1500.php">
 						<div class="contenedor cont_corredizos margin_bottom_30">
-							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tanker-1500-byn.jpg" alt="tankker 1500">
+							<img class="w-60 imagen_motores" src="img/automatizacion/corredizos/tanker-1500-byn.jpg" alt="icon 1500">
 						</div>
 					</a>
-					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/tankker-1500-titulo.png" alt="titulo tankker 1500">
+					<img class=" titulo_corredizos margin_bottom_15" src="img/automatizacion/corredizos/icon-1500-titulo.png" alt="titulo icon 1500">
 					<p class="parrafo_familia_home">
 						Automatizador industrial para portones corredizos de hasta 1500 kg. Potencia y elegancia.
 					</p>
-					<a href="corredizo-tankker-1500.php" class="btn_contacto btn_electronica margin_top_10">
+					<a href="corredizo-icon-1500.php" class="btn_contacto btn_electronica margin_top_10">
 						VER MÁS
 					</a>
 				</div>
-				<!-- tankker 1500 end-->
-
-
+				<!-- Icon 1500 end-->
 
 			</div>
 		</section>

@@ -1081,6 +1081,18 @@ footer span {
   color: #c8c8c8;
 }
 
+/* Cambios en productos */
+.product .contentProdPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .title {
+  max-height: 45px;
+}
+/* Cambios en productos end */
+
 /* Dispositivos extra pequeños (teléfonos de retrato, menos de 576px) */
 @media (max-width: 575.98px) {
   .familia_home {
