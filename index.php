@@ -24,6 +24,9 @@
 		<!-- Normalize CSS -->
 		<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 
+		<!-- Elfsight Google Reviews | Untitled Google Reviews -->
+		<script src="https://elfsightcdn.com/platform.js" async></script>
+
 		<!-- Fontawesome -->
 		<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
 
@@ -53,6 +56,9 @@
 	<body>
 		<!-- Tag Manager Body -->
   	<?php include_once 'includes/tag_manager_head.inc'; ?>
+
+		<!-- Elfsight Google Reviews | Untitled Google Reviews -->
+		<div class="elfsight-app-3d63c26d-53e6-442f-b91b-7f2ec309d06a" data-elfsight-app-lazy></div>
 		
 		<!-- Header -->
 		<?php include_once 'includes/header.inc'; ?>
@@ -280,9 +286,8 @@
 		<!-- Imagen Footer -->
 		<?php include_once 'includes/imagen-footer.inc'; ?>
 
-		<!-- Header -->
+		<!-- Footer -->
 		<?php include_once 'includes/footer.inc'; ?>
-
 
 		<!-- jQuery primero, luego Popper.js, luego Bootstrap JS -->
 		<!-- jQuery antiguo por incompatibilidad de slider -->

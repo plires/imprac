@@ -1,3 +1,16 @@
+/* Google Review */
+.slide-in__ActivatePointerEvents-sc-dd5f39d2-1,
+.cxhgHT {
+  background: white !important;
+}
+
+.Main__Container-sc-96675056-0 a,
+.Dlbjh a,
+.es-main-container a {
+  display: none !important;
+}
+/* Google Review end */
+
 /*3D*/
 .flipster__item img {
   width: 50%;
