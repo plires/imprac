@@ -46,7 +46,7 @@
 
 	<body>
 		<!-- Tag Manager Body -->
-  	<?php include_once 'includes/tag_manager_head.inc'; ?>
+ 	<?php include_once 'includes/tag_manager_head.inc'; ?>
 		
 		<!-- Header -->
 		<?php include_once 'includes/header.inc'; ?>
@@ -95,106 +95,158 @@
 
 			<div class="row margin_bottom_30">
 
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
-					<a class="block" href="descargas/guia-programacion-tankker.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
-					</a>
-					<a href="descargas/guia-programacion-tankker.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Guía <br> Programación<br><strong>TANKKER</strong>
-					</a>
-					<a href="descargas/guia-programacion-tankker.pdf" target="_blank" class="inicia_descarga block btn_descargas">
-						Descargar
-					</a>
-				</div>
-
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
 					<a class="block" href="descargas/placa-ct-eco.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
 					<a href="descargas/placa-ct-eco.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Guía Rápida <br> Placa<br><strong>CT-Eco</strong>
+						Guía Rápida Placa CT-Eco
 					</a>
 					<a href="descargas/placa-ct-eco.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
 
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
-					<a class="block" href="descargas/guia-rapida-placa-ct-tkr-f1.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/menu-especial-ct-eco.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
-					<a href="descargas/guia-rapida-placa-ct-tkr-f1.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Guía Rápida <br> Placa<br><strong>CT-TKR F1</strong>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Menu Especial CT ECO
 					</a>
-					<a href="descargas/guia-rapida-placa-ct-tkr-f1.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+					<a href="descargas/menu-especial-ct-eco.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
 
-			</div>
-
-			<div class="row margin_bottom_30">
-
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
-					<a class="block" href="descargas/guia-rapida-placa-ct-tkr.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/central-ct-e-code.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
-					<a href="descargas/guia-rapida-placa-ct-tkr.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Guía <br> Rápida Placa<br><strong>CT-TKR</strong>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Central  CT ECO-CODE
 					</a>
-					<a href="descargas/guia-rapida-placa-ct-tkr.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+					<a href="descargas/central-ct-e-code.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
 
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
 					<a class="block" href="descargas/guia-rapida-receptor-1c-v1.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
 					<a href="descargas/guia-rapida-receptor-1c-v1.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Guía Rápida <br> Receptor<br><strong>Multicode</strong>
+						Guía Rápida Receptor Multicode
 					</a>
 					<a href="descargas/guia-rapida-receptor-1c-v1.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
 
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/receptor-1x-rc-learning-code.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
+					</a>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Receptor  RX-IC Learning Code
+					</a>
+					<a href="descargas/receptor-1x-rc-learning-code.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+						Descargar
+					</a>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
 					<a class="block" href="descargas/linea-cr-4botones.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
 					<a href="descargas/linea-cr-4botones.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Programación<br> Línea<br><strong>TX CRIC4</strong>
+						Programación Línea TX CRIC4
 					</a>
 					<a href="descargas/linea-cr-4botones.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
 
-			</div>
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/linea-cr-4botones-para306-388.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
+					</a>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Programación Línea  TX CRIC4 p/ 306-388
+					</a>
+					<a href="descargas/linea-cr-4botones-para306-388.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+						Descargar
+					</a>
+				</div>
 
-			<div class="row margin_bottom_30">
-
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
 					<a class="block" href="descargas/semaforo-03-v12.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
 					<a href="descargas/semaforo-03-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Programación <br> Semáforo<br><strong>03 V1.2</strong>
+						Programación Semáforo 03 V1.2
 					</a>
 					<a href="descargas/semaforo-03-v12.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
 
-				<div class="col-sm-12 col-md-4 text-center margin_bottom_30">
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
 					<a class="block" href="descargas/semaforo-04-v12.pdf" target="_blank">
-						<img class="transition" src="img/descargas/pdf.gif">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
 					</a>
 					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
-						Programación <br> Semáforo<br><strong>04 V1.2</strong>
+						Programación Semáforo 04 V1.2
 					</a>
 					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+						Descargar
+					</a>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/fotocelula-oval.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
+					</a>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Fotocélula  Oval
+					</a>
+					<a href="descargas/fotocelula-oval.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+						Descargar
+					</a>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/alarma-alp.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
+					</a>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Alarma  ALP
+					</a>
+					<a href="descargas/alarma-alp.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+						Descargar
+					</a>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/cortina.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
+					</a>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Motor Cortinas Todos los modelos
+					</a>
+					<a href="descargas/cortina.pdf" target="_blank" class="inicia_descarga block btn_descargas">
+						Descargar
+					</a>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-3 text-center margin_bottom_30 contentDownload">
+					<a class="block" href="descargas/icon600.pdf" target="_blank">
+						<img class="transition iconPDF" src="img/descargas/pdf.gif">
+					</a>
+					<a href="descargas/semaforo-04-v12.pdf" target="_blank" class="color_principal block descarga_titulo transition margin_top_10">
+						Icon 600
+					</a>
+					<a href="descargas/icon600.pdf" target="_blank" class="inicia_descarga block btn_descargas">
 						Descargar
 					</a>
 				</div>
