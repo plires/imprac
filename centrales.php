@@ -62,7 +62,6 @@
 								<p>
 									<span class="frase_slide_mayor">
 										Dispositivos electrónicos para la automatización de portones.
-
 									</span>
 								</p>
 								<p>
@@ -93,7 +92,7 @@
 								<img class="w-100 imagen" src="img/electronica/cteco.jpg" alt="central para porton automatico cteco">
 							</a>
 						</div>
-						<img class="titulo_centrales" src="img/electronica/cteco-titulo.gif" alt="logo cteco para central porton automatico">
+						<img class="titulo_centrales img-fluid" src="img/electronica/cteco-titulo.gif" alt="logo cteco para central porton automatico">
 						<p class="parrafo_familia_home">
 							Dispositivo electrónico capaz de controlar 
 							motores de fase partida (3 cables) utilizados 
@@ -110,7 +109,7 @@
 								<img class="w-100 imagen" src="img/electronica/tkr.jpg" alt="central para porton automatico tkr">
 							</a>
 						</div>
-						<img class="titulo_centrales" src="img/electronica/centrales/eco-1hp-titulo-principal.png" alt="logo eco 1hp para central porton automatico">
+						<img class="titulo_centrales img-fluid" src="img/electronica/centrales/eco-1hp-titulo-principal.png" alt="logo eco 1hp para central porton automatico">
 						<p class="parrafo_familia_home">
 							Dispositivo electrónico capaz de controlar 
 							motores de fase partida (3 cables) especialmente diseñada para ser aplicada en la <strong>línea de motores ICON.</strong>
@@ -126,7 +125,7 @@
 								<img class="w-100 imagen" src="img/electronica/tkr-f1.jpg" alt="central para porton automatico eco ecode">
 							</a>
 						</div>
-						<img class="titulo_centrales" src="img/electronica/centrales/eco-ecode-titulo-principal.png" alt="logo eco ecode para central porton automatico">
+						<img class="titulo_centrales img-fluid" src="img/electronica/centrales/eco-ecode-titulo-principal.png" alt="logo eco ecode para central porton automatico">
 						<p class="parrafo_familia_home">
 							Dispositivo electrónico capaz de controlar 
 							motores de fase partida (3 cables), línea <strong>ICON ultra veloz</strong>
