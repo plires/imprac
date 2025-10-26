@@ -72,60 +72,128 @@
 			<section class="container-fluid fondo_gris_contacto">
 				<div class="container">
 					
-					<!-- Distribuidor -->
+					<!-- Distribuidor Imprac Sur-->
 					<div class="card_distribuidor row">
 						<div class="img col-md-6">
-							<img class="img-fluid" src="img/distribuidores/helier-logo.jpg" alt="logo heiler">
-							<h3>automatizacion de portones Heiler</h3>
+							<img class="img-fluid mb-3" src="img/logo.jpg" alt="logo imprac sur">
+							<h3>imprac sur</h3>
 						</div>
 						<div class="datos text-center col-md-6">
 							<div class="telefonos">
-								<a class="transition" href="tel:1144548115">11 4454-8115</a>
-								<a class="transition" href="tel:1146529268">11 4652-9268</a>
-								<a class="transition" href="mailto:info@heiler.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">info@heiler.com.ar</a>
+								<a class="transition" href="tel:1139193235">11 3919-3235</a>
+								<a class="transition" href="mailto:jonatan@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">jonatan@imprac.com.ar</a>
 							</div>
 							<hr>
 							<div class="direccion">
-								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://www.google.com.ar/maps/place/automatizaci%C3%B3n+de+portones+Heiler/@-34.6833074,-58.5183923,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc8dbb39c0001:0x425d67f7e9d4a13a!8m2!3d-34.6833302!4d-58.5161842">
-									Av. Crovara 1675<br>
-									La Tablada - Gran Buenos Aires
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/p8YVVPmbi5usEjbC6">
+									Cerrito 1929<br>
+									Temperley - Buenos Aires
 								</a>
-								<a class="btn btn-primary transition" href="mailto:info@heiler.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
+								<a class="btn btn-primary transition" href="mailto:jonatan@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
 							</div>
 						</div>
 					</div>
-					<!-- Distribuidor end -->
+					<!-- Distribuidor Imprac Sur end -->
 
-					<!-- Distribuidor -->
+					<!-- Distribuidor Imprac la plata -->
 					<div class="card_distribuidor row">
 						<div class="datos text-center col-md-6">
 							<div class="telefonos">
-								<a class="transition" href="tel:02914127868">0291 412-7868</a>
-								<a class="transition" href="mailto:consultas@sseguridad.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">consultas@sseguridad.com.ar</a>
+								<a class="transition" href="tel:2216266230">221 626-6230</a>
+								<a class="transition" href="mailto:laplata@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">laplata@imprac.com.ar</a>
 							</div>
 							<hr>
 							<div class="direccion">
-								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://www.google.com.ar/maps/place/Soluciones+en+Seguridad/@-38.7057268,-62.2523247,17z/data=!3m1!4b1!4m5!3m4!1s0x95eda35831c2304d:0xb4d0d6673a48aeab!8m2!3d-38.7056936!4d-62.2500819">
-									Ricardo Rojas 35,<br>
-									Bahía Blanca - Buenos Aires
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/utFgn8W622gyW6CHA">
+									Camino Gral. Belgrano 1550 E/ 516 y 517 Local 6 <br>
+									Gonnet - Buenos Aires
 								</a>
-								<a class="btn btn-primary transition" href="mailto:consultas@sseguridad.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
+								<a class="btn btn-primary transition" href="mailto:laplata@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
 							</div>
 						</div>
 						<div class="img col-md-6">
-					 		<img class="img-fluid" src="img/distribuidores/ss-logo.jpg" alt="logo soluciones en seguridad">
-					 		<h3>Soluciones en Seguridad</h3>
+					 		<img class="img-fluid mb-3" src="img/logo.jpg" alt="logo impra la plata">
+					 		<h3>Imprac la plata</h3>
 						</div>
 					</div>
-					<!-- Distribuidor end -->
+					<!-- Distribuidor Imprac la plata end -->
 
-					<!-- Distribuidor -->
+					<!-- Distribuidor Palomar-->
 					<div class="card_distribuidor row">
 						<div class="img col-md-6">
-					 		<img class="img-fluid" src="img/distribuidores/asitex-logo.jpg" alt="logo asitex">
-					 		<h3>asitex</h3>
+							<img class="img-fluid mb-3" src="img/logo.jpg" alt="logo Palomar">
+							<h3>Palomar</h3>
 						</div>
 						<div class="datos text-center col-md-6">
+							<div class="telefonos">
+								<a class="transition" href="tel:1154213127">11 5421-3127</a>
+								<a class="transition" href="tel:53822697 ">5382-2697 </a>
+								<a class="transition" href="mailto:palomar@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">palomar@imprac.com.ar</a>
+							</div>
+							<hr>
+							<div class="direccion">
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/knnoGK2jLAQjNW8v9">
+									Laureana Ferrari 90<br>
+									El Palomar - Buenos Aires
+								</a>
+								<a class="btn btn-primary transition" href="mailto:palomar@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
+							</div>
+						</div>
+					</div>
+					<!-- Distribuidor Palomar end -->
+
+					<!-- Distribuidor Imprac patagonia -->
+					<div class="card_distribuidor row">
+						<div class="datos text-center col-md-6">
+							<div class="telefonos">
+								<a class="transition" href="tel:2914615262">291 461-5262</a>
+								<a class="transition" href="tel:2915744343">291 574-4343</a> 
+								<a class="transition" href="mailto:imprac.sanrafael@imprac.com?subject=Consulta%20desde%20el%20sitio%20Imprac">
+									imprac.sanrafael@imprac.com
+								</a>
+							</div>
+							<hr>
+							<div class="direccion">
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/Ass18kW3EszygLBu8">
+									Rufino Rojas 35<br>
+									Bahia Blanca - Buenos Aires
+								</a>
+								<a class="btn btn-primary transition" href="mailto:imprac.sanrafael@imprac.com?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
+							</div>
+						</div>
+						<div class="img col-md-6">
+					 		<img class="img-fluid mb-3" src="img/logo.jpg" alt="logo impra la plata">
+					 		<h3>Imprac patagonia</h3>
+						</div>
+					</div>
+					<!-- Distribuidor Imprac patagonia end -->
+
+					<!-- Distribuidor rosario-->
+					<div class="card_distribuidor row">
+						<div class="img col-md-6">
+							<img class="img-fluid mb-3" src="img/logo.jpg" alt="logo rosario">
+							<h3>rosario</h3>
+						</div>
+						<div class="datos text-center col-md-6">
+							<div class="telefonos">
+								<a class="transition" href="tel:1124746053">11 2474-6053</a>
+								<a class="transition" href="mailto:rosario@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">rosario@imprac.com.ar</a>
+							</div>
+							<hr>
+							<div class="direccion">
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/5LZ9WjKBBYHRH6WL7">
+									La Paz 3090<br>
+									Rosario - Santa Fe
+								</a>
+								<a class="btn btn-primary transition" href="mailto:rosario@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
+							</div>
+						</div>
+					</div>
+					<!-- Distribuidor rosario end -->
+
+					<!-- Distribuidor asitex -->
+					<div class="card_distribuidor row">
+					<div class="datos text-center col-md-6">
 							<div class="telefonos">
 								<a class="transition" href="tel:1142033951">114203 3951</a>
 								<a class="transition" href="tel:1142036479">11 4203 6479</a>
@@ -140,8 +208,12 @@
 								<a class="btn btn-primary transition" href="mailto:info@asitex.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
 							</div>
 						</div>
+						<div class="img col-md-6">
+					 		<img class="img-fluid" src="img/distribuidores/asitex-logo.jpg" alt="logo asitex">
+					 		<h3>asitex</h3>
+						</div>
 					</div>
-					<!-- Distribuidor end -->
+					<!-- Distribuidor asitex end -->
 
 				</div>
 			</section>
@@ -149,8 +221,8 @@
 
 			<!-- Newsletter -->
 			<?php
-// include_once('includes/newsletter.inc');
-?>
+				// include_once('includes/newsletter.inc');
+			?>
 
 			<!-- Faja equipo frase -->
 			<section class="container-fluid faja_destacado_equipo">
