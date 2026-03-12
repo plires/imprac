@@ -85,7 +85,7 @@
 							</div>
 							<hr>
 							<div class="direccion">
-								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/p8YVVPmbi5usEjbC6">
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/ihm8QfUFiEqsTd2ZA">
 									Cerrito 1929<br>
 									Temperley - Buenos Aires
 								</a>
@@ -104,7 +104,7 @@
 							</div>
 							<hr>
 							<div class="direccion">
-								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/utFgn8W622gyW6CHA">
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/aTheFqaHBuV6dRmr5">
 									Camino Gral. Belgrano 1550 E/ 516 y 517 Local 6 <br>
 									Gonnet - Buenos Aires
 								</a>
@@ -148,8 +148,8 @@
 							<div class="telefonos">
 								<a class="transition" href="tel:2914615262">291 461-5262</a>
 								<a class="transition" href="tel:2915744343">291 574-4343</a> 
-								<a class="transition" href="mailto:imprac.sanrafael@imprac.com?subject=Consulta%20desde%20el%20sitio%20Imprac">
-									imprac.sanrafael@imprac.com
+								<a class="transition" href="mailto:patagonia@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">
+									patagonia@imprac.com.ar
 								</a>
 							</div>
 							<hr>
@@ -158,7 +158,7 @@
 									Rufino Rojas 35<br>
 									Bahia Blanca - Buenos Aires
 								</a>
-								<a class="btn btn-primary transition" href="mailto:imprac.sanrafael@imprac.com?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
+								<a class="btn btn-primary transition" href="mailto:patagonia@imprac.com.ar?subject=Consulta%20desde%20el%20sitio%20Imprac">CONTACTAR</a>
 							</div>
 						</div>
 						<div class="img col-md-6">
@@ -181,7 +181,7 @@
 							</div>
 							<hr>
 							<div class="direccion">
-								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/5LZ9WjKBBYHRH6WL7">
+								<a class="transition" target="_blank" rel="noreferrer noopener" href="https://maps.app.goo.gl/C9Km2ye1ogdkdZDY8">
 									La Paz 3090<br>
 									Rosario - Santa Fe
 								</a>
