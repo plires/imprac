@@ -14,7 +14,7 @@
 
   <a
     id="whatsapp_desktop"
-    href="https://api.whatsapp.com/send?phone=5491130904101&text=Hola!%20Necesito%20hacer%20una%20consulta!"
+    href="https://api.whatsapp.com/send?phone=5491178560969&text=Hola!%20Necesito%20hacer%20una%20consulta!"
     target="_blank"
     class="btn btn-wap bg-pulseDesktop"
   >
@@ -31,7 +31,7 @@
   <a
     id="whatsapp_mobile"
     class="transition"
-    href="https://api.whatsapp.com/send?phone=5491130904101&text=Hola!%20Necesito%20hacer%20una%20consulta!"
+    href="https://api.whatsapp.com/send?phone=5491178560969&text=Hola!%20Necesito%20hacer%20una%20consulta!"
     target="_blank"
   >
     <h5 class="bg-pulse">

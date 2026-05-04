@@ -195,6 +195,12 @@ if (isset($_POST['email_contact'])) {
 							</a>
 						</span> <br>
 						<span>
+							<a class="datos" href="https://wa.me/5491178560969?text=Hola%20..." target="_blank">
+								<i class="fab fa-whatsapp-square"></i>
+								+54 11.7856.0969
+							</a>
+						</span> <br>
+						<span>
 
 							<a class="datos" href="mailto:info@imprac.com.ar">
 								<i class="fas fa-envelope"></i>

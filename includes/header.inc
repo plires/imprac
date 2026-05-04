@@ -11,7 +11,7 @@
         <div class="col-lg-12">
           <a
             class="facebook"
-            href="https://wa.me/5491130904101?text=Hola%20..."
+            href="https://wa.me/5491178560969?text=Hola%20..."
             target="_blank"
           >
             <img src="img/whatsapp.png" alt="whatsapp" />
